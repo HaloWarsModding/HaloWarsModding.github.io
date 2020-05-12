@@ -1,37 +1,31 @@
-# Getting Started
-Whether you're a new modder, or just need to brush up on the basics, this is the place to be.
-This page will focus on what you need to begin making a mod. 
-<footer>
-  <p>Posted by: Hege Refsnes</p>
-  <p>Contact information: <a href="mailto:someone@example.com">
-  someone@example.com</a>.</p>
-</footer>
+# Welcome to the Halo Wars Modding wiki!
+This is the home for all documentation on modding Halo Wars: Definitive Edition.
+These docs will cover everything from the basics like modifying a unit, to rigging and importing new models and beyond.
 
+If you are not already a part of the community, we recommend joining the [Halo Wars Modding Discord](https://discord.gg/t52GdQX)
 
+***
+<img align="right" width="385" height="315" src="images/spectre.png">
 
-If you are a beginner, we recommend reading this page top to bottom twice before moving on to anything else, but if you're here for something specific, you can jump to the desired section by clicking on one of the following:
+### What's Possible?
 
-[Tools](#ToolsHeader) | [TEST1](#) | [TEST2](#)
+Currently, the main things we are able to create and edit are:
+* Objects (single units, props, buildings)
+* Squads (groups of single units)
+* Leaders (both playable leaders, and in-game leader units)
+* Techs (unit and power upgrades)
+* Misc game settings (camera, team colors)
+
+Some things that can only be modified to a limited degree are:
+* Maps
+  * Objects and squads can be placed on existing maps
+  * Skyboxes and terrain textures can be edited
+* Scripts
+  * Used to create new missions/gamemodes/leader-powers (more research is required still)
+* GUI/HUD
+  * Can be edited with the right tools (more research is required still)
 
 ***
 
-<a name="ToolsHeader"></a>
-## Tools
-### PHXTool
-<img align="right" width="349" height="420" src="https://media.discordapp.net/attachments/339462193051336705/575045099910856714/Unbenannt.png?width=523&height=630">
-The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack Halo Wars' resource archives, so that you can make use of them in new content, or edit them for existing content. This tool also allows you to easily edit your modmanifest.txt, which determines what directories to load mods from at start-up. More info about modmanifest can be found [[HERE - NEED LINK TO MOD MANIFEST ARTICLE]].
-
-<style>
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
-</style>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
+### New Modders
+If you are a first time modder, or are still getting the hang of things, we recommend the [Getting Started Page](pages/getting_started.md). Here you will find everything you need to begin making mods.
