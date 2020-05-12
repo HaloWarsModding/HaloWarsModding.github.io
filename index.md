@@ -23,7 +23,6 @@ The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This too
 
 <style>
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
