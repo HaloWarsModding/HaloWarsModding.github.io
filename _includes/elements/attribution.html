@@ -1,10 +1,32 @@
+.box {
+    width: 350px;
+    position: relative;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -2px;
+    border-style: solid;
+    border-width: 0 40px 40px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.cart {
+    position: absolute;
+    top: 0;
+    right: -4px;
+    z-index: 1;
+}
+
 <table class="ui unstackable very basic collapsing table">
 <tbody>
 
 <tr>
   <td>
 
-  <div>
+  <div class='box'>
     Not finding what you're looking for? Make sure to join the [Halo Wars Modding Discord](https://discord.gg/t52GdQX) to ask questions and share!
     <br>
   </div>
