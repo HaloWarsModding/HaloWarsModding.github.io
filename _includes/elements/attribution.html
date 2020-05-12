@@ -1,17 +1,22 @@
 <style>
 .box {
     width: 1400px;
+    height: 50px;
     position: absolute;
 }
 
 .box::after {
-  border: 5px solid red;
+    content: "Not finding what you're looking for? Make sure to join the [Halo Wars Modding Discord] to ask questions and share!";
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 38, 38);
 }
 </style>
 
 
 <body>
-  <div class='box'>
-    Not finding what you're looking for? Make sure to join the [Halo Wars Modding Discord] to ask questions and share!
-  </div>
+  <div class='box'></div>
 </body>
