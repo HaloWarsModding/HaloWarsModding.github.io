@@ -3,17 +3,6 @@ layout: page
 title: Welcome
 ---
 
-# {{ page.title }}
-
-Not finding what you're looking for? Make sure to join the [Halo Wars Modding Discord](https://discord.gg/t52GdQX) to ask questions and share!
-{:.larger.text}
-
-For more details, please refer to the [documentation][theme-docs]
-
-
-[gh-pages]: https://pages.github.com/ "Websites for you and your projects"
-[theme-docs]: https://pixeldroid.com/programming-pages/ "a Jekyll theme for publishing code documentation to GitHub pages"
-
 # Welcome to the Halo Wars Modding wiki!
 This is the home for all documentation on modding Halo Wars: Definitive Edition.
 These docs will cover everything from the basics like modifying a unit, to rigging and importing new models and beyond.
