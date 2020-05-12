@@ -10,6 +10,7 @@ These docs will cover everything from the basics like modifying a unit, to riggi
 If you are not already a part of the community, we recommend joining the [Halo Wars Modding Discord](https://discord.gg/t52GdQX)
 
 ***
+
 <img align="right" width="385" height="315" src="https://media.discordapp.net/attachments/339462193051336705/709545855115460638/unknown.png?width=770&height=630">
 
 ### What's Possible?
