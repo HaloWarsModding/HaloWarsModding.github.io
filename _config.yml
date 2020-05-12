@@ -2,10 +2,7 @@
 # default site settings
 # configure these values for your project
 project:
-  name: "{project_name}"
-  owner: "{project_owner}"
-  repo: "{project_repo}"
-  version: "{project_version}"
+  name: "Halo Wars: Definitive Edition Modding Docs"
 
 collections:
   api:
