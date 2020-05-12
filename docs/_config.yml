@@ -1,0 +1,54 @@
+---
+project:
+  name: programming pages
+  owner: pixeldroid
+  repo: https://github.com/pixeldroid/programming-pages
+  version: 0.5.22
+attributions:
+  bundler: Bundler folks, https://github.com/bundler/bundler/
+  entypo-pictograms: Daniel Bruce, http://www.entypo.com/
+  font-awesome: Dave Gandy, https://github.com/FortAwesome/Font-Awesome
+  fontello: Fontello, http://fontello.com/
+  github-pages: GitHub, Inc., https://pages.github.com/
+  glyphicon-halflings: Jan Kovařík, https://www.glyphicons.com/sets/halflings/
+  iconic: P.J. Onori, https://github.com/somerandomdude/Iconic
+  jekyll: Jekyll crew, https://github.com/jekyll/jekyll
+  jquery: jQuery team, https://github.com/jquery/jquery
+  jquery-address: Rostislav Hristov, https://github.com/Semantic-Org/Semantic-UI-Docs/blob/master/server/files/javascript/library/history.js
+  kbd-css: StackOverflow user Jin, https://meta.superuser.com/questions/4788/css-for-the-new-kbd-style
+  kramdown: Thomas Leitner, https://github.com/gettalong/kramdown
+  liquid: Shopify, https://github.com/Shopify/liquid
+  loadcss: Filament Group, https://github.com/filamentgroup/loadCSS
+  monokai-colors: Wimer Hazenberg, https://github.com/monokai
+  mousetrap: Craig Campbell, https://craig.is/killing/mice
+  rake: Jim Weirich, https://github.com/ruby/rake
+  rouge: Jeanine Adkisson, https://github.com/jneen/rouge
+  ruby: Yukihiro Matsumoto, https://www.ruby-lang.org/en/downloads/
+  semantic-ui: Jack Lukic, https://github.com/Semantic-Org/Semantic-UI
+  svg-icon: 绝云, https://leungwensen.github.io/svg-icon/
+collections:
+  guides:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Guides
+    tab-order: 1
+  examples:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Examples
+    tab-order: 2
+  layout_api:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Layout API
+    tab-order: 3
+highlighter: rouge
+kramdown:
+  footnote_backlink: "⮌"
+permalink: pretty
+sass:
+  style: compressed
+plugins:
+- jemoji
+- jekyll-remote-theme
+remote_theme: pixeldroid/programming-pages

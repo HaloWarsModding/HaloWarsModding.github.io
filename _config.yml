@@ -1,0 +1,35 @@
+---
+# default site settings
+# configure these values for your project
+project:
+  name: "{project_name}"
+  owner: "{project_owner}"
+  repo: "{project_repo}"
+  version: "{project_version}"
+
+collections:
+  api:
+    output: true
+    permalink: "/:collection/:path/"
+    title: API
+    tab-order: 1
+  examples:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Examples
+    tab-order: 2
+  guides:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Guides
+    tab-order: 3
+
+highlighter: rouge
+permalink: pretty
+sass:
+  style: compressed
+
+plugins:
+  - jemoji
+  - jekyll-remote-theme
+remote_theme: pixeldroid/programming-pages

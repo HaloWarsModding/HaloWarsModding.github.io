@@ -1,31 +1,16 @@
-# Welcome to the Halo Wars Modding wiki!
-This is the home for all documentation on modding Halo Wars: Definitive Edition.
-These docs will cover everything from the basics like modifying a unit, to rigging and importing new models and beyond.
+---
+layout: page
+title: Welcome
+---
 
-If you are not already a part of the community, we recommend joining the [Halo Wars Modding Discord](https://discord.gg/t52GdQX)
+# {{ page.title }}
 
-***
-<img align="right" width="385" height="315" src="images/spectre.png">
+**programming pages** is a [GitHub Pages][gh-pages] theme for publishing code documentation.
+{:.larger.text}
 
-### What's Possible?
+For more details, please refer to the [documentation][theme-docs]
 
-Currently, the main things we are able to create and edit are:
-* Objects (single units, props, buildings)
-* Squads (groups of single units)
-* Leaders (both playable leaders, and in-game leader units)
-* Techs (unit and power upgrades)
-* Misc game settings (camera, team colors)
 
-Some things that can only be modified to a limited degree are:
-* Maps
-  * Objects and squads can be placed on existing maps
-  * Skyboxes and terrain textures can be edited
-* Scripts
-  * Used to create new missions/gamemodes/leader-powers (more research is required still)
-* GUI/HUD
-  * Can be edited with the right tools (more research is required still)
 
-***
-
-### New Modders
-If you are a first time modder, or are still getting the hang of things, we recommend the [Getting Started Page](pages/getting_started.md). Here you will find everything you need to begin making mods.
+[gh-pages]: https://pages.github.com/ "Websites for you and your projects"
+[theme-docs]: https://pixeldroid.com/programming-pages/ "a Jekyll theme for publishing code documentation to GitHub pages"
