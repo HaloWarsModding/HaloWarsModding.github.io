@@ -1,4 +1,4 @@
-<link rel="icon" href="index.png">
+<link rel="icon" href="images/index.png">
 
 # Welcome to the Halo Wars Modding wiki!
 This is the home for all documentation on modding Halo Wars: Definitive Edition.
