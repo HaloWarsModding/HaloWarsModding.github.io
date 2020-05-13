@@ -25,7 +25,7 @@
 
 /* toggle visibility of menu toggle / sidebar at 'mobile' width */
 #site-title .toggle.item {
-  display: none;
+  display: none;        
 }
 #sidebar-fixed {
   overflow-y: auto!important;
@@ -38,15 +38,23 @@
 .pusher #page-container {
   margin-left: 15rem; /* position page to left of sidebar when it's not retractable */
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1390px) {
   #site-title .toggle.item {
     display: flex;
+    left:85px;
+    top:.25rem;
   }
+
+  #title-bar-text {
+    display: none;
+  }
+
   .pusher #sidebar-fixed {
     display: none;
   }
   .pusher #page-container {
     margin-left: 0;
+    margin-right: auto;
   }
 }
 
@@ -103,9 +111,21 @@ sup:target::before {
     width: max-content;    /* and contract to the smallest width needed by content without wrapping */
   }
 }
-#site-title .borderless.item {
-  padding-left: /* 1.5 - 3.5em */ calc(1.5em + 2 * ((100vw - 320px) / (1910 - 320)));
-  padding-right: .25em;
+#title-bar-parent{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1344px;
+  max-height: 3.5rem;
+}
+#title-bar-home {
+  top: .25rem;
+  position: absolute;
+}
+#title-bar-text {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
 }
 
 /* responsive adjustments to attribution footer */
@@ -127,7 +147,9 @@ sup:target::before {
 /* sidebar menu styling */
 #site-search {
   width: 14rem;
+  height: 1rem;
   margin-left: -.5rem;
+  position: absolute;
 }
 #site-search .results {
   overflow: auto;
@@ -138,8 +160,9 @@ sup:target::before {
 #sidebar-collection-indices {
   padding-bottom: 75vh; /* add space underneath indices so bottom-most item can scroll into view */
 }
-#sidebar-collection-indices .ui.large.fixed.menu .item {
-  padding-top: 1.4em;
+#sidebar-collection-indices .ui.large.menu .item {
+  top: .5rem;
+  position: absolute;
 }
 #sidebar-collection-indices .ui.tab.segment {
   /* adjust tab segment to to fit under n rendered collections */
@@ -153,13 +176,14 @@ sup:target::before {
 }
 #sidebar-collection-tabs {
   background-color: #292a2b; /* FIXME: this should be some theme variable for a lightened inverted background */
+  position: absolute;
 }
 #sidebar-fixed #sidebar-collection-indices .ui.large.fixed.menu {
   top: 3.5rem; /* for sidebar fixed, keep search and tabs fixed at top */
   width: 15rem;
 }
 #sidebar-fixed #sidebar-collection-tabs {
-  top: 5.65rem;
+  top: 34.63px;
 }
 #sidebar-retractable #sidebar-collection-indices .ui.large.fixed.menu {
   top: 0; /* for sidebar retractable, items still need to be positioned, since they've been fixed */
