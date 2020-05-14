@@ -42,26 +42,81 @@ Pictured from left to right: [Notepad++](https://notepad-plus-plus.org/downloads
 
 All three of these programs are free, and are excellent programs to edit .xml files. If you have another program that you prefer, you can use that, of course. They are just text files after all.
 
+
+
+
 ***
+
+
+
 
 <a name="YourFirstMod"></a>
 # Creating Your First Mod
+
+Now that you are familiar with the tools, let's make a mod. The mod we will be creating here is simply increasing the population count (the number of units you can have in your army), and changing the unit that spawns at your base when you start a game (the default is the warthog, ghost, or brute chopper).
+
 ## Setting Up ModManifest
 
+First things first.
 ModManifest is a .txt file that tells the game where to load external content from. This file can automatically found and opened using PHXTool, or alternatively can be found in:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:\Users\'USER'\AppData\Local\Halo Wars" (Steam)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:\Users\'USER'\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState" (Windows Store).
 
-Inside of your modmanifest file, you can specify paths for the game to load mods from. Each path must be on it's own line. To disable a path without erasing it, simply put a semi-colon (**;**) in front of it. PHXTool has a gui to automate this process, if you prefer it. It can be accessed by pressing the "Edit ModManifest.txt for ('Version')" button. This button will also create the file if you do not have one already.
+Inside of your modmanifest file, you can specify paths for the game to load mods from. Each path must be on it's own line. To disable a path without erasing it, simply put a semi-colon (**;**) in front of it. PHXTool has a gui to automate this process, if you prefer it. It can be accessed by pressing the "Edit ModManifest.txt for (Version)" button. This button will also create the file if you do not have one already.
 
 **It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM FOLDERS IN_ C:\Users\'USER'\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState. There is nothing we can do about this.**<br>
 For the Steam version however, mod folders can be placed wherever you want. Even on another drive if you have one.
+
+Go ahead and create a folder within the confines of your game version, and put the path of this folder in the modmanifest.txt.
 
 Now that your mod folder is all set up, now would be a good time to learn how to make one.
 
 ## Extracting root.era
 <img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackingera_nofolder.png?raw=true">
+<img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackedera_folder.png?raw=true">
 
 First, make sure you have set your expand path. Once you have varified that it is set where you want it, simply locate the root.era file in your game's installation directory, and drag it into PHXTool.
+PHXTool will now unpack the archive. Once it is done, your expand path should look like the image on the right.
 
-PHXTool will now 
+The file we're after now is the `leaders.xmb` in the `data` folder.
+
+Once you find this file, drag it into PHXTool just as you did the root.era before. You will notice it creates an .xml file right next to the original .xmb named `leaders.xml`. Now, go to your mod folder and create a folder named `data`. We do this because the contents of the mod folder need to mimic that of the archives the game uses. This means that any file we want to put into our mod must still work within the file structure the game uses.
+Copy the `leaders.xml` into your new `(mod)\data` folder.
+
+Now, open the `leaders.xml` file that you just copied to your `(mod)\data` folder. In this file you will see several `<Leader>` nodes. These nodes contain all of the information the game uses for each specific leader, including their name, starting unit, and starting resources.
+The one we're after is the one with ```Name="Cutter"```.
+
+It will look like this:
+
+```xml
+<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
+	<Civ>UNSC</Civ>
+	<Tech>unsc_LeaderCutter</Tech>
+	<NameID>7000</NameID>
+	<DescriptionID>7001</DescriptionID>
+	<FlashCivID>0</FlashCivID>
+	<FlashImg>orbital</FlashImg>
+	<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+	<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+	<Resource Type="Supplies">800</Resource>
+	<Resource Type="CampaignFoo">0</Resource>
+	<Resource Type="Collectable">0</Resource>
+	<Resource Type="Power">0</Resource>
+	<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+	<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+	<RallyPointOffset>50,0,0</RallyPointOffset>
+	<RepairRate>1</RepairRate>
+	<RepairDelay>20</RepairDelay>
+	<RepairCost Type="Supplies">35</RepairCost>
+	<RepairTime>30</RepairTime>
+	<Pop Type="Unit" Max="99">30</Pop>
+	<Pop Type="Spartan" Max="3">3</Pop>
+</Leader>
+```
+<br>
+First, lets check out the line `<Pop Type="Unit" Max="99">30</Pop>`.<br>
+This line determines the starting population (the value within the node), as well as the maximum value it can be (the value of the "Max" attribute).<br>
+Go ahead and set the value within the node (here it is 30) to whatever you want.
+
+While we're here, lets find the line `<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
+This line's value can be set to any 

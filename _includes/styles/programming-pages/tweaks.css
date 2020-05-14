@@ -314,3 +314,14 @@ pre.highlight {
 .ui.list .item>.icon {
   float: left;
 }
+
+
+
+.language-xml {
+  font-size: 13.5px;
+}
+
+/* code.highlighter-rouge {
+  background-color: #272822;
+  color: #f9f9f9d3;
+} */
