@@ -21,6 +21,7 @@
 }
 #page-container {
   flex: 1;
+  padding-top: 12px;
 }
 
 /* toggle visibility of menu toggle / sidebar at 'mobile' width */
@@ -105,7 +106,7 @@ sup:target::before {
   max-width: calc(40vw); /* not to exceed 40% of viewport width */
   width: min-content;    /* but shrink to the smallest width needed by content, after wrapping */
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1390px) {
   #site-title .header .text {
     max-width: calc(60vw); /* grant up to 60% of viewport width */
     width: max-content;    /* and contract to the smallest width needed by content without wrapping */
@@ -320,8 +321,3 @@ pre.highlight {
 .language-xml {
   font-size: 13.5px;
 }
-
-/* code.highlighter-rouge {
-  background-color: #272822;
-  color: #f9f9f9d3;
-} */

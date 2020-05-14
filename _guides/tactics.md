@@ -3,7 +3,6 @@ layout: page
 title: Tactics Files
 ---
 
-# Introduction to Tactics Files
 This page will go through the basics of creating and editting tactics files. 
 
 Click these links to move to a specific part of the tutorial:

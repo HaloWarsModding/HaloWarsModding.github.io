@@ -3,7 +3,7 @@ layout: page
 title: Getting Started
 ---
 
-# Getting Started
+
 Whether you're a new modder, or just need to brush up on the basics, this is the place to be.
 This page will focus on what you need to begin making a mod. 
 
@@ -14,7 +14,7 @@ If you are a beginner, we recommend reading this page top to bottom twice before
 ***
 
 <a name="WhatsNeeded"></a>
-## Whats Needed?
+# Whats Needed?
 ### PHXTool - For Extracting Halo Wars: DE Content
 <img width="422" height="279" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/phxtool.png?raw=true">
 
@@ -61,12 +61,12 @@ When following a guide here, if you're absolutely sure you did it correctly and 
 
 Now that you are familiar with the tools, let's make a mod. The mod we will be creating here is simply increasing the population count (the number of units you can have in your army), and changing the unit that spawns at your base when you start a game (the default is the warthog, ghost, or brute chopper).
 
-## Setting Up ModManifest
+### Setting Up ModManifest
 
 First things first.
 ModManifest is a .txt file that tells the game where to load external content from. This file can automatically found and opened using PHXTool, or alternatively can be found in:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:/Users/'USER'/AppData/Local/Halo Wars" (Steam)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState" (Windows Store).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- "C:/Users/'USER'/AppData/Local/Halo Wars" (Steam)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- "C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState" (Windows Store)
 
 Inside of your modmanifest file, you can specify paths for the game to load mods from. Each path must be on it's own line. To disable a path without erasing it, simply put a semi-colon (**;**) in front of it. PHXTool has a gui to automate this process, if you prefer it. It can be accessed by pressing the "Edit ModManifest.txt for (Version)" button. This button will also create the file if you do not have one already.
 
@@ -77,7 +77,7 @@ Go ahead and create a folder within the confines of your game version, and put t
 
 Now that your mod folder is all set up, now would be a good time to learn how to make one.
 
-## Getting Into It
+### Getting Into It
 <img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackingera_nofolder.png?raw=true">
 <img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackedera_folder.png?raw=true">
 
@@ -127,7 +127,10 @@ First, lets check out the line `<Pop Type="Unit" Max="99">30</Pop>`.<br>
 This line determines the starting population (the value within the node), as well as the maximum value it can be (the value of the "Max" attribute).<br>
 Go ahead and set the value within the node (here it is 30) to whatever you want.
 
-While we're here, lets find the line `<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
+While we're here, lets find the line 
+
+`<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
+
 This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to "unsc_inf_marine_01". This will set the starting unit to the marine squad.
 
 Now try starting your game!
