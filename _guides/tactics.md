@@ -17,7 +17,7 @@ Click these links to move to a specific part of the tutorial:
 
 Tactics files are an absolutely essential part of any unit. They enable units to attack, use abilities, gather resources, and more. 
 
-Each unit has its own .tactics file, each of which is referenced in that unit's objects.xml entry. Every tactics is found in the "tactics" folder: 
+Each unit has its own .tactics file, each of which is referenced in that unit's `objects.xml` entry. Every tactics is found in the "tactics" folder: 
   `(data/tactics/example_01.tactics)`
 
 
@@ -25,7 +25,7 @@ Each unit has its own .tactics file, each of which is referenced in that unit's 
 
 <a name="ComponentsofTactics"></a>
 # The Components of a Tactics File
-## "Weapon"
+## Weapons
 This portion of the file assigns the characteristics of the "weapon" used for each of the unit's attacks, including:
 
   > Damage, Accuracy, Max and Min Range, Physics, Area of Effect info, Impact and Projectile Effects, Attack Cooldown, Weapon Type, and Target Priority
@@ -34,12 +34,12 @@ Most of these are pretty self explanatory, but there is a few things to go over.
   * The "WeaponType" tag  refers to entries in the `weapontypes.xml` file, found in the data folder. Each weapon type specifies how damage is multiplied against certain "Damage Types". Each unit or building is assigned a damage type in `objects.xml.` For more info, click **Insert link to objects guide here**.
   * Target Priority tags refer to how likely the unit is to target the specified unit type, when given the option. 
   
-## "Action"
+## Actions
 Actions connect a weapon to the unit's animations, as well as enable the unit to use certain abilities or perform more general actions, such as garrisoning cover or gathering supplies. This is also where characteristics relating to an action itself is modified, such as a Warthog's machine gun continuing to fire when switching targets.
 
 There are many different types of attacks, so feel free to look through different tactics files to familiarize yourself with them. For example, the Scorpion's cannon uses a "SlaveTurretAttack", while it's MG uses a ranged attack. The MG attack action contains `<SlaveAttackAction>` which connects it to the cannon. As a result, the cannon is bound to the MG.
 
-## "Tactic/TargetRule"
+## Persistent Actions and Target Rules
 The Tactic section determines the rules for how an action is performed. There are 3 main tags here:
   * `<PersistentAction>`
   * `<PersistentSquadAction>`
