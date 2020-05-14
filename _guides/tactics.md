@@ -26,6 +26,7 @@ Each unit has its own .tactics file, each of which is referenced in that unit's 
 <a name="ComponentsofTactics"></a>
 # The Components of a Tactics File
 ## Weapons
+<img width="360" height="285" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics1.png?raw=true">
 This portion of the file assigns the characteristics of the "weapon" used for each of the unit's attacks, including:
 
   > Damage, Accuracy, Max and Min Range, Physics, Area of Effect info, Impact and Projectile Effects, Attack Cooldown, Weapon Type, and Target Priority
