@@ -9,12 +9,12 @@ This page will focus on what you need to begin making a mod.
 
 If you are a beginner, we recommend reading this page top to bottom twice before moving on to anything else, but if you're here for something specific, you can jump to the desired section by clicking on one of the following:
 
-[Tools](#ToolsHeader) **\|** [TEST1](#) **\|** [TEST2](#)
+[Whats Needed](#WhatsNeeded) **\|** [JUMP2](#)
 
 ***
 
-<a name="ToolsHeader"></a>
-## Tools
+<a name="WhatsNeeded"></a>
+## Whats Needed?
 ### PHXTool - For Extracting Halo Wars: DE Content
 <img width="422" height="279" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/phxtool.png?raw=true">
 
