@@ -71,7 +71,7 @@ Go ahead and create a folder within the confines of your game version, and put t
 
 Now that your mod folder is all set up, now would be a good time to learn how to make one.
 
-## Extracting root.era
+## Getting Into It
 <img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackingera_nofolder.png?raw=true">
 <img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackedera_folder.png?raw=true">
 
@@ -83,8 +83,11 @@ The file we're after now is the `leaders.xmb` in the `data` folder.
 Once you find this file, drag it into PHXTool just as you did the root.era before. You will notice it creates an .xml file right next to the original .xmb named `leaders.xml`. Now, go to your mod folder and create a folder named `data`. We do this because the contents of the mod folder need to mimic that of the archives the game uses. This means that any file we want to put into our mod must still work within the file structure the game uses.
 Copy the `leaders.xml` into your new `(mod)\data` folder.
 
+It should be noted that any file in your mod directory that has the same path and name as one from the base game will overwrite the original. In this case, we're overwriting the `data\leaders.xml` file. This file will be treated as the only one that exists upon loading into the game.<br>
+To reiterate; **Files that match the same path and name as a base game file will overwrite it, not add to it.**
+
 Now, open the `leaders.xml` file that you just copied to your `(mod)\data` folder. In this file you will see several `<Leader>` nodes. These nodes contain all of the information the game uses for each specific leader, including their name, starting unit, and starting resources.
-The one we're after is the one with ```Name="Cutter"```.
+The one we're after is the one with `Name="Cutter"`.
 
 It will look like this:
 
@@ -119,4 +122,4 @@ This line determines the starting population (the value within the node), as wel
 Go ahead and set the value within the node (here it is 30) to whatever you want.
 
 While we're here, lets find the line `<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
-This line's value can be set to any 
+This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to "unsc_inf_marine_01". This will set the starting unit to the marine squad.
