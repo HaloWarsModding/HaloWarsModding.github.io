@@ -26,7 +26,13 @@ Each unit has its own .tactics file, each of which is referenced in that unit's 
 <a name="ComponentsofTactics"></a>
 # The Components of a Tactics File
 ## "Weapon"
+This portion of the file assigns the characteristics of the "weapon" used for each of the unit's attacks, including:
 
+  > Damage, Accuracy, Max and Min Range, Physics, Area of Effect info, Impact and Projectile Effects, Attack Cooldown, Weapon Type, and Target Priority
+  
+Most of these are pretty self explanatory, but there is a few things to go over. 
+  > The "WeaponType" tag  refers to entries in the weapontypes.xml file, found in the data folder. Each weapon type specifies how damage is multiplied against certain "Damage Types". Each unit or building is assigned a damage type in objects.xml. For more info, click **Insert link to objects guide here**.
+  > Target Priority tags refer to how likely the unit is to target the specified unit type, when given the option. 
 
 ## "Action"
 
