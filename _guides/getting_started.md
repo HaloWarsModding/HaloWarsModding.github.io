@@ -54,5 +54,5 @@ ModManifest is a .txt file that tells the game where to load external content fr
 
 Inside of your modmanifest file, you can specify paths for the game to load mods from. Each path must be on it's own line. To disable a path without erasing it, simply put a semi-colon (**;**) in front of it. PHXTool has a gui to automate this process, if you prefer it. It can be accessed by pressing the "Edit ModManifest.txt for ('Version')" button. This button will also create the file if you do not have one already.
 
-**It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM PATHS IN_ C:\Users\'USER'\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState**. There is nothing we can do about this.<br>
+**It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM FOLDERS IN_ C:\Users\'USER'\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState. There is nothing we can do about this.**<br>
 For the Steam version however, mod folders can be placed wherever you want. Even on another drive if you have one.
