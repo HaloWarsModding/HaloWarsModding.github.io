@@ -18,7 +18,7 @@ Click these links to move to a specific part of the tutorial:
 Tactics files are an absolutely essential part of any unit. They enable units to attack, use abilities, gather resources, and more. 
 
 Each unit has its own .tactics file, each of which is referenced in that unit's objects.xml entry. Every tactics is found in the "tactics" folder: 
-  (data/tactics/example_01.tactics)
+  `(data/tactics/example_01.tactics)`
 
 
 ***
@@ -41,9 +41,9 @@ There are many different types of attacks, so feel free to look through differen
 
 ## "Tactic/TargetRule"
 The Tactic section determines the rules for how an action is performed. There are 3 main tags here:
-  * <PersistentAction>
-  * <PersistentSquadAction>
-  * <TargetRule>
+  * `<PersistentAction>`
+  * `<PersistentSquadAction>`
+  * `<TargetRule>`
   
 It is important to use the appropriate type of persistent action for each action type because it make not work properly if the wrong one is used. Actions such as cloaking will use this.
 
