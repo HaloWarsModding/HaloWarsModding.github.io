@@ -56,3 +56,12 @@ Inside of your modmanifest file, you can specify paths for the game to load mods
 
 **It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM FOLDERS IN_ C:\Users\'USER'\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState. There is nothing we can do about this.**<br>
 For the Steam version however, mod folders can be placed wherever you want. Even on another drive if you have one.
+
+Now that your mod folder is all set up, now would be a good time to learn how to make one.
+
+## Extracting root.era
+<img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackingera_nofolder.png?raw=true">
+
+First, make sure you have set your expand path. Once you have varified that it is set where you want it, simply locate the root.era file in your game's installation directory, and drag it into PHXTool.
+
+PHXTool will now 
