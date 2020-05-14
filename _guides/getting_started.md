@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Getting Started
+showTitle: 1
 ---
 
 
