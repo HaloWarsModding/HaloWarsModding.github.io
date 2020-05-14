@@ -31,6 +31,9 @@ theme_url: https://github.com/pixeldroid/programming-pages
 <div class="ui left aligned fluid container">
 <div id="page-content" class="ui basic segment">
 {{ content }}
+{% for section in page.sections %}
+<div>{{ section }}</div>
+{% endfor %}
 </div>
 
 <!-- footer -->
