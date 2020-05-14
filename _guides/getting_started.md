@@ -42,8 +42,14 @@ Pictured from left to right: [Notepad++](https://notepad-plus-plus.org/downloads
 
 All three of these programs are free, and are excellent programs to edit .xml files. If you have another program that you prefer, you can use that, of course. They are just text files after all.
 
+### A Little Bit of Patience
 
+As with all things, sometimes you may encounter something that is not working as expected. If this is the case, dont give up! Just make sure to double check everything. Some things that can cause unwanted results are:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Invalid XML formatting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- XML entries with duplicate `Name=""` attributes<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Incorrect spelling, or forgotten underscores
 
+When following a guide here, if you're absolutely sure you did it correctly and it still will not work, there is always the [Halo Wars Modding Discord](https://discord.gg/t52GdQX) where someone would be happy to assist you.
 
 ***
 
@@ -123,3 +129,12 @@ Go ahead and set the value within the node (here it is 30) to whatever you want.
 
 While we're here, lets find the line `<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
 This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to "unsc_inf_marine_01". This will set the starting unit to the marine squad.
+
+No try starting your game!
+
+<img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/firstmod_success.png?raw=true">
+
+If all went well, when you start a skirmish mission as Captain Cutter, you should notice that your population capacity is whatever you set it to before (here I set it to 99, hence 1/99), and now you also start with a
+marine squad rather than a warthog!
+
+This was just a simple file edit to get you familiar with how the modding enviroment is set up. For more indepth tutorials, please see the "Guides" tab on the left of the page! There is so much more that can be done!
