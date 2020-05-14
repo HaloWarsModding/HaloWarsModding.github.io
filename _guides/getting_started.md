@@ -130,7 +130,7 @@ Go ahead and set the value within the node (here it is 30) to whatever you want.
 While we're here, lets find the line `<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
 This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to "unsc_inf_marine_01". This will set the starting unit to the marine squad.
 
-No try starting your game!
+Now try starting your game!
 
 <img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/firstmod_success.png?raw=true">
 
