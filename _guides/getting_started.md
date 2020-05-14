@@ -21,8 +21,8 @@ If you are a beginner, we recommend reading this page top to bottom twice before
 The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. It can be downloaded [here](PHX DOWLOAD LINK).
 
 The tool has several options. The 'ERA Expand Path' field allows you to specify where the archive will be dumped to. It is recommended to set this to an "Extract" folder either:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In your game's install directory (Steam users \| Example: C:\Program Files (x86)\Steam\steamapps\common\HaloWarsDE).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In your documents folder (Windows Store Users \| C:\'USER'\Documents).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In your game's install directory (Steam users \| Example: C:/Program Files (x86)/Steam/steamapps/common/HaloWarsDE).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In your documents folder (Windows Store Users \| C:/'USER'/Documents).
 
 The "ERA Build Path" field allows you to specify where you want an archive to be spit out when it is re-built. This feature is hardly ever needed, but is still sometimes useful. It is recommended to be set to your game's install directory. **Note: Always make a backup of all your files before modifying anything. Rebuilding an archive into your install directory will overwrite the original file unless "Don't overwrite existing files" is checked.**
 
@@ -40,7 +40,7 @@ Almost all of Halo Wars' data files are in .xml. So with that in mind, it's a go
 
 Pictured from left to right: [Notepad++](https://notepad-plus-plus.org/downloads/), [Visual Studio Code](https://code.visualstudio.com/download), and [Sublime Text 3](https://www.sublimetext.com/3).
 
-All three of these programs are free, and are excellent programs to edit .xml files. If you have another program that you prefer, you can use that, of course. They are just text files after all.
+Notepad++ and Visual Studio Code are completely free, and Sublime Text 3 has an indefinite trial period. All three are excellent programs to edit .xml files. If you have another program that you prefer, you can use that, of course. They are just text files after all.
 
 ### A Little Bit of Patience
 
@@ -65,12 +65,12 @@ Now that you are familiar with the tools, let's make a mod. The mod we will be c
 
 First things first.
 ModManifest is a .txt file that tells the game where to load external content from. This file can automatically found and opened using PHXTool, or alternatively can be found in:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:\Users\'USER'\AppData\Local\Halo Wars" (Steam)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:\Users\'USER'\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState" (Windows Store).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:/Users/'USER'/AppData/Local/Halo Wars" (Steam)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-"C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState" (Windows Store).
 
 Inside of your modmanifest file, you can specify paths for the game to load mods from. Each path must be on it's own line. To disable a path without erasing it, simply put a semi-colon (**;**) in front of it. PHXTool has a gui to automate this process, if you prefer it. It can be accessed by pressing the "Edit ModManifest.txt for (Version)" button. This button will also create the file if you do not have one already.
 
-**It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM FOLDERS IN_ C:\Users\'USER'\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState. There is nothing we can do about this.**<br>
+**It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM FOLDERS IN_ C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState. There is nothing we can do about this.**<br>
 For the Steam version however, mod folders can be placed wherever you want. Even on another drive if you have one.
 
 Go ahead and create a folder within the confines of your game version, and put the path of this folder in the modmanifest.txt.
@@ -87,26 +87,26 @@ PHXTool will now unpack the archive. Once it is done, your expand path should lo
 The file we're after now is the `leaders.xmb` in the `data` folder.
 
 Once you find this file, drag it into PHXTool just as you did the root.era before. You will notice it creates an .xml file right next to the original .xmb named `leaders.xml`. Now, go to your mod folder and create a folder named `data`. We do this because the contents of the mod folder need to mimic that of the archives the game uses. This means that any file we want to put into our mod must still work within the file structure the game uses.
-Copy the `leaders.xml` into your new `(mod)\data` folder.
+Copy the `leaders.xml` into your new `(mod)/data` folder.
 
-It should be noted that any file in your mod directory that has the same path and name as one from the base game will overwrite the original. In this case, we're overwriting the `data\leaders.xml` file. This file will be treated as the only one that exists upon loading into the game.<br>
+It should be noted that any file in your mod directory that has the same path and name as one from the base game will overwrite the original. In this case, we're overwriting the `data/leaders.xml` file. This file will be treated as the only one that exists upon loading into the game.<br>
 To reiterate; **Files that match the same path and name as a base game file will overwrite it, not add to it.**
 
-Now, open the `leaders.xml` file that you just copied to your `(mod)\data` folder. In this file you will see several `<Leader>` nodes. These nodes contain all of the information the game uses for each specific leader, including their name, starting unit, and starting resources.
+Now, open the `leaders.xml` file that you just copied to your `(mod)/data` folder. In this file you will see several `<Leader>` nodes. These nodes contain all of the information the game uses for each specific leader, including their name, starting unit, and starting resources.
 The one we're after is the one with `Name="Cutter"`.
 
 It will look like this:
 
 ```xml
-<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
+<Leader Name="Cutter" Icon="ui/game/icon/unsc/leader/Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
 	<Civ>UNSC</Civ>
 	<Tech>unsc_LeaderCutter</Tech>
 	<NameID>7000</NameID>
 	<DescriptionID>7001</DescriptionID>
 	<FlashCivID>0</FlashCivID>
 	<FlashImg>orbital</FlashImg>
-	<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
-	<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+	<FlashPortrait>img://art/ui/flash/shared/textures/pregame/leaderImages/cutter.ddx</FlashPortrait>
+	<UIControlBackground>img://art/ui/flash/shared/textures/leaders/LeaderPict_cutter.ddx</UIControlBackground>
 	<Resource Type="Supplies">800</Resource>
 	<Resource Type="CampaignFoo">0</Resource>
 	<Resource Type="Collectable">0</Resource>
