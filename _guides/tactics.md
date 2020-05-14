@@ -26,7 +26,7 @@ Each unit has its own .tactics file, each of which is referenced in that unit's 
 <a name="ComponentsofTactics"></a>
 # The Components of a Tactics File
 ## Weapons
-<img width="360" height="285" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics1.png?raw=true">
+<img width="360" height="285" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics1.png?raw=true"> <br>
 This portion of the file assigns the characteristics of the "weapon" used for each of the unit's attacks, including:
 
   > Damage, Accuracy, Max and Min Range, Physics, Area of Effect info, Impact and Projectile Effects, Attack Cooldown, Weapon Type, and Target Priority
@@ -36,13 +36,13 @@ Most of these are pretty self explanatory, but there is a few things to go over.
   * Target Priority tags refer to how likely the unit is to target the specified unit type, when given the option. 
   
 ## Actions
-<img width="435" height="144" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics2.png?raw=true">
+<img width="435" height="144" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics2.png?raw=true"> <br>
 Actions connect a weapon to the unit's animations, as well as enable the unit to use certain abilities or perform more general actions, such as garrisoning cover or gathering supplies. This is also where characteristics relating to an action itself is modified, such as a Warthog's machine gun continuing to fire when switching targets.
 
 There are many different types of attacks, so feel free to look through different tactics files to familiarize yourself with them. For example, the Scorpion's cannon uses a "SlaveTurretAttack", while it's MG uses a ranged attack. The MG attack action contains `<SlaveAttackAction>` which connects it to the cannon. As a result, the cannon is bound to the MG.
 
 ## Persistent Actions and Target Rules
-<img width="400" height="91" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics3.png?raw=true">
+<img width="400" height="91" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics3.png?raw=true"> <br>
 The Tactic section determines the rules for how an action is performed. There are 3 main tags here:
   * `<PersistentAction>`
   * `<PersistentSquadAction>`
