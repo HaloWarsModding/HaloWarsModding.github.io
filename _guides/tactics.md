@@ -31,7 +31,7 @@ This portion of the file assigns the characteristics of the "weapon" used for ea
   > Damage, Accuracy, Max and Min Range, Physics, Area of Effect info, Impact and Projectile Effects, Attack Cooldown, Weapon Type, and Target Priority
   
 Most of these are pretty self explanatory, but there is a few things to go over. 
-  * The "WeaponType" tag  refers to entries in the weapontypes.xml file, found in the data folder. Each weapon type specifies how damage is multiplied against certain "Damage Types". Each unit or building is assigned a damage type in objects.xml. For more info, click **Insert link to objects guide here**.
+  * The "WeaponType" tag  refers to entries in the `weapontypes.xml` file, found in the data folder. Each weapon type specifies how damage is multiplied against certain "Damage Types". Each unit or building is assigned a damage type in `objects.xml.` For more info, click **Insert link to objects guide here**.
   * Target Priority tags refer to how likely the unit is to target the specified unit type, when given the option. 
   
 ## "Action"
@@ -48,4 +48,7 @@ The Tactic section determines the rules for how an action is performed. There ar
 It is important to use the appropriate type of persistent action for each action type because it make not work properly if the wrong one is used. Actions such as cloaking will use this.
 
 Target Rules are used far more commonly. They are used to determine the following:
-> What type of unit is a viable target for an attack, whether an action should be activated only through the unit's "Y ability", the squad mode (normal, cover, or power) a unit must be in for the action to be used, as well as the relationship the target has to the unit (enemy, ally, or nonplayer).
+  * What type of unit is a viable target for an attack
+  * Whether an action should be activated only through the unit's "Y ability"
+  * The squad mode (normal, cover, or power) a unit must be in for the action to be used
+  * The relationship the target has to the unit (enemy, ally, or nonplayer)
