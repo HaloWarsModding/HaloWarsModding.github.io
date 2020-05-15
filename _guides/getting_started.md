@@ -32,7 +32,7 @@ For the basics, none of the flags are required. For more information and documen
 To unpack an .era, all you must do is drag the .era file into the tool's gui. The tool will then unpack all of the files contained within the archive to the path specified in the "ERA Expand Path".<br>
  After the files have been extracted, you will find an .eradef file along side the archive's contents. This file is a manifest for all of the files contained within the archive, and can be edited to include new files. All files specified in the .eradef are relative to the file itself. To rebuild an .era, simply drag the .eradef into the tool just as you would do to unpack an .era file. The resulting .era will be put in the specified "ERA Build Output" path.
 
- You will also come across files with an .xmb extension once you unpack an archive. These files are just compressed XML. To edit these, simply drag them into the tool, just like an .era, and it will spit out an uncompressed .xml file. This file will apear in the same directory as the source .xmb; it is not affected by the "ERA Expand Path". Any .xml file can also be dragged into the tool to produce an .xmb. These are mostly unneeded, however.
+ You will also come across files with an .xmb extension once you unpack an archive. These files are just compressed XML. To edit these, simply drag them into the tool, just like an .era, and it will spit out an uncompressed .xml file. This file will apear in the same directory as the source .xmb; it is not affected by the "ERA Expand Path".
 
 ### A Decent Text Editor
 <img width="1000" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/texteditors.png?raw=true">
