@@ -65,13 +65,13 @@ Now that you are familiar with the tools, let's make a mod. The mod we will be c
 ### Setting Up ModManifest
 
 First things first.
-ModManifest is a .txt file that tells the game where to load external content from. This file can automatically found and opened using PHXTool, or alternatively can be found in:<br>
+ModManifest is a .txt file that tells the game where to load external content from. This file can automatically be found and opened using PHXTool, or alternatively can be found in:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- "C:/Users/'USER'/AppData/Local/Halo Wars" (Steam)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- "C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState" (Windows Store)
 
 Inside of your modmanifest file, you can specify paths for the game to load mods from. Each path must be on it's own line. To disable a path without erasing it, simply put a semi-colon (**;**) in front of it. PHXTool has a gui to automate this process, if you prefer it. It can be accessed by pressing the "Edit ModManifest.txt for (Version)" button. This button will also create the file if you do not have one already.
 
-**It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM FOLDERS IN_ C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState. There is nothing we can do about this.**<br>
+**It should be noted that the Windows Store version of the game can _ONLY LOAD MODS FROM FOLDERS IN C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState._ There is nothing we can do about this.**<br>
 For the Steam version however, mod folders can be placed wherever you want. Even on another drive if you have one.
 
 Go ahead and create a folder within the confines of your game version, and put the path of this folder in the modmanifest.txt.
