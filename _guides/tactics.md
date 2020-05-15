@@ -42,7 +42,7 @@ Actions connect a weapon to the unit's animations, as well as enable the unit to
 
 There are many different types of attacks, so feel free to look through different tactics files to familiarize yourself with them. Many of them are used in combination with other types, particularly in vehicles. Let's go through a few examples.
 
-<img width="340" height="145" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_scorpion.png?raw=true"> <br>
+<img width="508" height="216" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_scorpion.png?raw=true"> <br>
   * First off, there is the "SlaveTurretAttack" used by the Scorpion's cannon. The MG uses the standard "RangedAttack", which is exactly as it sounds. In addition, the MG attack action contains `<SlaveAttackAction>`, which links the cannon to the MG. Wherever the MG attacks or turns, the cannon will follow. The MG also has the `<MainAttack>` tag, which means that this attack will be the one that is prioritized when the unit is directed to attack an enemy. Because the cannon is a slave attack, it does not need a target rule (explained below) or a MainAttack tag, as it does not itself target anything, it just uses the same target as the MG.
   
   <img width="508" height="145" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_elephant.png?raw=true"> <br>
