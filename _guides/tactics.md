@@ -29,9 +29,10 @@ Each unit has its own .tactics file, each of which is referenced in that unit's 
 <img width="360" height="285" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics1.png?raw=true"> <br>
 This portion of the file assigns the characteristics of the "weapon" used for each of the unit's attacks, including:
 
-  > Damage, Accuracy, Max and Min Range, Physics, Area of Effect info, Impact and Projectile Effects, Attack Cooldown, Weapon Type, and Target Priority
+  > Damage, Accuracy, Max and Min Range, Physics, Area of Effect info, Impact and Projectile Effects, Attack Cooldown, Weapon Type, Hardpoint, and Target Priority
   
 Most of these are pretty self explanatory, but there is a few things to go over. 
+  * Hardpoints are extremely important to take note of. This refers to a hardpoint defined in `objects.xml`, and is the point at which the unit is able to turn when using a particular weapon. This can be a torso for an infantry unit or a turret on a Warthog or Scorpion, for example. If a unit's hardpoints in their tactics is different from the one in their objects entry, then it won't work properly.
   * The "WeaponType" tag  refers to entries in the `weapontypes.xml` file, found in the data folder. Each weapon type specifies how damage is multiplied against certain "Damage Types". Each unit or building is assigned a damage type in `objects.xml.` For more info, click **Insert link to objects guide here**.
   * Target Priority tags refer to how likely the unit is to target the specified unit type, when given the option. 
   
@@ -44,7 +45,7 @@ There are many different types of attacks, so feel free to look through differen
 <img width="340" height="145" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_scorpion.png?raw=true"> <br>
   * First off, there is the "SlaveTurretAttack" used by the Scorpion's cannon. The MG uses the standard "RangedAttack", which is exactly as it sounds. In addition, the MG attack action contains `<SlaveAttackAction>`, which links the cannon to the MG. Wherever the MG attacks or turns, the cannon will follow. The MG also has the `<MainAttack>` tag, which means that this attack will be the one that is prioritized when the unit is directed to attack an enemy. Because the cannon is a slave attack, it does not need a target rule (explained below) or a MainAttack tag, as it does not itself target anything, it just uses the same target as the MG.
   
-  <img width="340" height="97" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_elephant.png?raw=true"> <br>
+  <img width="508" height="145" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_elephant.png?raw=true"> <br>
   * Another important attack type is the "SecondaryTurretAttack". Elephants, for example, use this for each of their machine gun attacks. An important thing to note is that you should avoid using the MainAttack tag with secondary turret attacks. If you have multiple secondary turret attacks on a single unit, like the Elephant does, then they will all be able to attack different units simultaneously, but only if they do not use the MainAttack tag. By default, Elephants do have the tag, which is why there are times when one turret is left unable to attack.
 
 ## Persistent Actions and Target Rules
