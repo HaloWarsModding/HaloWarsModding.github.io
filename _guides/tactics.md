@@ -44,7 +44,8 @@ There are many different types of attacks, so feel free to look through differen
 <img width="340" height="145" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_scorpion.png?raw=true"> <br>
   * First off, there is the "SlaveTurretAttack" used by the Scorpion's cannon. The MG uses the standard "RangedAttack", which is exactly as it sounds. In addition, the MG attack action contains `<SlaveAttackAction>`, which links the cannon to the MG. Wherever the MG attacks or turns, the cannon will follow. The MG also has the `<MainAttack>` tag, which means that this attack will be the one that is prioritized when the unit is directed to attack an enemy. Because the cannon is a slave attack, it does not need a target rule (explained below) or a MainAttack tag, as it does not itself target anything, it just uses the same target as the MG.
   
-  * Another important attack type is the "SecondaryTurretAttack"...
+  <img width="340" height="97" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics_elephant.png?raw=true"> <br>
+  * Another important attack type is the "SecondaryTurretAttack". Elephants, for example, use this for each of their machine gun attacks. An important thing to note is that you should avoid using the MainAttack tag with secondary turret attacks. If you have multiple secondary turret attacks on a single unit, like the Elephant does, then they will all be able to attack different units simultaneously, but only if they do not use the MainAttack tag. By default, Elephants do have the tag, which is why there are times when one turret is left unable to attack.
 
 ## Persistent Actions and Target Rules
 <img width="400" height="91" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/tactics3.png?raw=true"> <br>
