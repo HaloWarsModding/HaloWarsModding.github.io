@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tactics Files
+title: Tactics
 showTitle: 1
 ---
 

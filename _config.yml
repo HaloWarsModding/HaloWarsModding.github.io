@@ -10,11 +10,16 @@ collections:
     permalink: "/:collection/:path/"
     title: Guides
     tab-order: 1
+  wiki:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Wiki
+    tab-order: 2
   examples:
     output: true
     permalink: "/:collection/:path/"
     title: Examples
-    tab-order: 2
+    tab-order: 3
 
 highlighter: rouge
 permalink: pretty

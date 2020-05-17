@@ -132,7 +132,7 @@ While we're here, lets find the line
 
 `<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
 
-This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to "unsc_inf_marine_01". This will set the starting unit to the marine squad.
+This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to "unsc_inf_marine_01". This will set the starting unit to the marine squad. For more info on squads after you are through with this guide, click [here](/guides/squads/#/guides/).
 
 Now try starting your game!
 
