@@ -10,7 +10,8 @@ Creating models is not exactly straight forward, and requires a few hurdles to j
 Click these links to move to a specific part of the tutorial:
 
 [Getting Started](#GettingStarted)<br>
-[Installing StumpyUGXSDK](#UGXSDKInstallation)<br>
+[Using StumpyUGXSDK](#UGXSDKInstallation)<br>
+[Exporting .gr2 Files](#GR2Export)<br>
 
 ***
 
@@ -26,13 +27,13 @@ Installation of this program can be found [below](#UGXSDKInstallation).<br>
 
 ### 3DSMax 2018
 3DSMax is a CAD tool created by Autodesk. The 2018 version is required to export the .gr2 files. How you obtain it is up to you.<br>
-You will also need the .gr2 exporter plugin. It can be downloaded [here](https://www.mediafire.com/file/rgn93ruk7p00low/3dsmax2018gr2exporter.rar/file) (MediaFire link).
 
+
+***
 <a name="UGXSDKInstallation"></a>
 ## Installing StumpyUGXSDK
 The download for StumpyUGXSDK can be found [here](https://github.com/HaloWarsModding/StumpyUGXSDK/releases/download/1.0.0/StumpyUGXSDK.exe) (with source available on [GitHub](https://github.com/HaloWarsModding/StumpyUGXSDK)).<br>
 It requires the Granny3D SDK by RAD Game Tools to function. It can be downloaded [here](https://www.mediafire.com/file/5pwpeiozx7tvja3/granny2_x64.dll/file) (MediaFire link).<br>
-
 
 <img width="200" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/stumpyugxsdk.png?raw=true">
 
@@ -43,15 +44,20 @@ To use this program, simply open it. You will be greeted with a prompt to type o
 Please enter a path to a .gr2 file.
 >>
 ```
-
 You will then be prompted to specify what you want to export this as.
 ```
 Please select what you want to export this file as: (a = animation | m = mesh)
 >>
 ```
-
 The tool will then convert the .gr2 into either a .uax or .ugx in the exact same path as the input, and will give it the appropriate file extension.
 
 These files can be used in game like any other model or animation file.
 
 
+***
+<a name="GR2Export"></a>
+## Exporting .gr2 Files
+
+To export .gr2 Files, you will need 3DS Max 2018, along with the .gr2 exporter found [here](https://www.mediafire.com/file/rgn93ruk7p00low/3dsmax2018gr2exporter.rar/file) The folder in the archive "stdplugin" can be dropped directly into your 3DS Max installation folder. Once you have a satisfactory piece of art, **be sure to run the gr2_export.ms MaxScript file that was included in the StumpyUGXSDK tool download
+(Click "Scripting on the top context menu bar in 3DS Max, then "Run Script").<br>
+Now you are ready to export. Go to "File" => "Export" => "Export..." and set the "Save as type:" option to "Granny Run-time (*.GR2).
