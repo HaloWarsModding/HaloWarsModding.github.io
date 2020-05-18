@@ -58,6 +58,21 @@ These files can be used in game like any other model or animation file.
 <a name="GR2Export"></a>
 ## Exporting .gr2 Files
 
-To export .gr2 Files, you will need 3DS Max 2018, along with the .gr2 exporter found [here](https://www.mediafire.com/file/rgn93ruk7p00low/3dsmax2018gr2exporter.rar/file) The folder in the archive "stdplugin" can be dropped directly into your 3DS Max installation folder. Once you have a satisfactory piece of art, **be sure to run the gr2_export.ms MaxScript file that was included in the StumpyUGXSDK tool download
-(Click "Scripting on the top context menu bar in 3DS Max, then "Run Script").<br>
-Now you are ready to export. Go to "File" => "Export" => "Export..." and set the "Save as type:" option to "Granny Run-time (*.GR2).
+To export .gr2 Files, you will need 3DS Max 2018, along with the .gr2 exporter found [here](https://www.mediafire.com/file/rgn93ruk7p00low/3dsmax2018gr2exporter.rar/file) The folder in the archive "stdplugin" can be dropped directly into your 3DS Max installation folder. Once you have a satisfactory piece of art, **be sure to run the gr2_export.ms MaxScript file that was included in the StumpyUGXSDK tool download.
+(Click "Scripting on the top context menu bar in 3DS Max, then "Run Script").**<br>
+Now you are ready to export. Go to "File" => "Export" => "Export..." and set the "Save as type:" option to "Granny Run-time (\*.GR2). Click save and a new menu should pop up.
+
+Under the "File" settings, set yours to match the this:<br>
+**NOTE:** the "Tool Coordinate System" option may have to be tweaked in order to show up correctly in game depending on the orientation of your model in 3DS Max
+
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/gr2expfile.png?raw=true">
+
+Now under "Animations" set it to match this:
+
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/gr2expanim.png?raw=true">
+
+**NOTE:** Each animation must be exported as it's own .gr2 and processed separately. As long as your model's rig does not change, you are free to edit the base mesh without needing to re-process the animations, and vice-versa.<br>
+**NOTE:** Be sure not to exceed 65535 vertices in your model.
+
+Now you have a .gr2 file to use in the tool.<br>
+Happy modding!
