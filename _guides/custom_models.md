@@ -73,6 +73,7 @@ Now under "Animations" set it to match this:
 
 **NOTE:** Each animation must be exported as it's own .gr2 and processed separately. As long as your model's rig does not change, you are free to edit the base mesh without needing to re-process the animations, and vice-versa.<br>
 **NOTE:** Be sure not to exceed 65535 vertices in your model.
+**NOTE:** It is necessary to have an idle animation, otherwise the model will show up on it's side in-game. For models that you do not want to animate at all (i.e. props), just change the "Tool Coordinate System" option as mentioned before to achieve the desired orientation.
 
 Now you have a .gr2 file to use in the tool.<br>
 Happy modding!
