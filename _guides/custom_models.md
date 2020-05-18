@@ -71,6 +71,10 @@ Now under "Animations" set it to match this:
 
 <img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/gr2expanim.png?raw=true">
 
+And finally under "Models" set it to match this:
+
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/gr2expmodel.png?raw=true">
+
 **NOTE:** Each animation must be exported as it's own .gr2 and processed separately. As long as your model's rig does not change, you are free to edit the base mesh without needing to re-process the animations, and vice-versa.<br>
 **NOTE:** Be sure not to exceed 65535 vertices in your model.<br>
 **NOTE:** It is necessary to have an idle animation, otherwise the model will show up on it's side in-game. For models that you do not want to animate at all (i.e. props), just change the "Tool Coordinate System" option as mentioned before to achieve the desired orientation.
