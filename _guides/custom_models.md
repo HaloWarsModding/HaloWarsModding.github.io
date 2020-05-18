@@ -32,4 +32,26 @@ You will also need the .gr2 exporter plugin. It can be downloaded [here](https:/
 ## Installing StumpyUGXSDK
 The download for StumpyUGXSDK can be found [here](https://github.com/HaloWarsModding/StumpyUGXSDK/releases/download/1.0.0/StumpyUGXSDK.exe) (with source available on [GitHub](https://github.com/HaloWarsModding/StumpyUGXSDK)).<br>
 It requires the Granny3D SDK by RAD Game Tools to function. It can be downloaded [here](https://www.mediafire.com/file/5pwpeiozx7tvja3/granny2_x64.dll/file) (MediaFire link).<br>
+
+
+<img width="200" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/stumpyugxsdk.png?raw=true">
+
 Once you have downloaded the tool and the Granny3D SDK dll, go ahead an place them side-by-side in your desired directory.<br>
+
+To use this program, simply open it. You will be greeted with a prompt to type or paste in a path to a .gr2 file.
+```
+Please enter a path to a .gr2 file.
+>>
+```
+
+You will then be prompted to specify what you want to export this as.
+```
+Please select what you want to export this file as: (a = animation | m = mesh)
+>>
+```
+
+The tool will then convert the .gr2 into either a .uax or .ugx in the exact same path as the input, and will give it the appropriate file extension.
+
+These files can be used in game like any other model or animation file.
+
+
