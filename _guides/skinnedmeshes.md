@@ -8,19 +8,21 @@ This guide will explain how to import skinned meshes for use in Halo Wars, speci
 
 Click these links to move to a specific part of the tutorial:
 
-[Getting Started](#GettingStarted)<br>
-[Using StumpyUGXSDK](#UGXSDKInstallation)<br>
-[Exporting .gr2 Files](#GR2Export)<br>
+[Getting Started](#Requirements)<br>
+[Using StumpyUGXSDK](#ModelImport)<br>
+[Exporting .gr2 Files](#Blender)<br>
 
 ***
 
-<a name="GettingStarted"></a>
+<a name="Requirements"></a>
 # Requirements
-- Follow the "Creating New Meshes" guide first.
+Follow the "Creating New Meshes" guide first.
 
-- You'll need 3ds Max 2018 and Blender for this tutorial. Most of the work will be done in Blender, but you'll need 3ds Max for reasons explained in the "Creating New Meshes" guide.
+You'll need 3ds Max 2018 and Blender for this tutorial. Most of the work will be done in Blender, but you'll need 3ds Max for reasons explained in the "Creating New Meshes" guide.
 
-## Importing Models
+***
+<a name="ModelImport"></a>
+## Importing the Models
 
 You'll need two models for this tutorial, one from the base game, and one you want to import. Be sure to use a model from Halo Wars that most closely matches the one you are importing.
 
@@ -33,7 +35,7 @@ You will see "Main Root". Select it, right click, and delete it. Once done, go t
 Open Blender and import both the Halo Wars model, and the one you want to import.
 
 ***
-<a name="UGXSDKInstallation"></a>
+<a name="Blender"></a>
 # Blender
 Now that you have both models in Blender, you will need to scale, rotate, and then pose your imported model to match the Halo Wars model. 
 
@@ -68,6 +70,3 @@ After this is done, you may delete the Halo Wars model and export yours as an FB
 Back in 3ds Max, delete the model and bones of the Halo Wars model if you haven't already, you'll want a clear scene. Then import the FBX you just created in Blender. Once imported, it is absolutely necessary that you delete the "Main Root", as you did before. 
 Now you need to run the "gr2export.ms" script in the same you did earlier with the ugx import script. Now, export the model as a .gr2 and follow the "Creating New Meshes" guide to get the model into the game.
 
-***
-<a name="GR2Export"></a>
-## Exporting .gr2 Files
