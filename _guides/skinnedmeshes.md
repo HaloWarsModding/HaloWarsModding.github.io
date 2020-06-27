@@ -8,9 +8,9 @@ This guide will explain how to import skinned meshes for use in Halo Wars, speci
 
 Click these links to move to a specific part of the tutorial:
 
-[Getting Started](#Requirements)<br>
-[Using StumpyUGXSDK](#ModelImport)<br>
-[Exporting .gr2 Files](#Blender)<br>
+[Requirements](#Requirements)<br>
+[Importing the Models](#ModelImport)<br>
+[Editting the Models](#EdittingtheModels)<br>
 
 ***
 
@@ -35,8 +35,8 @@ You will see "Main Root". Select it, right click, and delete it. Once done, go t
 Open Blender and import both the Halo Wars model, and the one you want to import.
 
 ***
-<a name="Blender"></a>
-# Blender
+<a name="EdittingtheModels"></a>
+# Editting the Models
 Now that you have both models in Blender, you will need to scale, rotate, and then pose your imported model to match the Halo Wars model. 
 
 Select your imported model, then click "object mode" at the top left of the screen, then click "edit mode". Just to the right of that, click "Select", then "Select All". 
