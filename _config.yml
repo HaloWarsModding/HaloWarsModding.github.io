@@ -15,9 +15,9 @@ collections:
     permalink: "/:collection/:path/"
     title: Wiki
     tab-order: 2
-  tools:
+  examples:
     output: true
-    permalink: "/:collection/:path/"
+    permalink: "/tools/:path/"
     title: Tools
     tab-order: 3
 
