@@ -7,13 +7,13 @@ project:
 collections:
   guides:
     output: true
-    permalink: "/:collection/:path/"
+    permalink: "/guides/:path/"
     title: Guides
     tab-order: 1
   wiki:
     output: true
-    permalink: "/:collection/:path/"
-    title: Wiki
+    permalink: "/docs/:path/"
+    title: Docs
     tab-order: 2
   examples:
     output: true
