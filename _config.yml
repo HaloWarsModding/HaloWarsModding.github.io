@@ -18,7 +18,7 @@ collections:
   examples:
     output: true
     permalink: "/:collection/:path/"
-    title: Examples
+    title: Tools
     tab-order: 3
 
 highlighter: rouge
