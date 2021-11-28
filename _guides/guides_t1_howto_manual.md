@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Install Mods Manually
+title: Installing Mods Manually
 showTitle: 1
 ---
 
