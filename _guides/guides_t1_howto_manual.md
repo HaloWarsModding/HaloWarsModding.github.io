@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to install mods manually
+title: How to Install Mods Manually
 showTitle: 1
 ---
 
@@ -8,7 +8,7 @@ This guide will show you how to install mods manually, using Leader Overhaul Mod
 
 ***
 <a name="HowToInstall"></a>
-## Installing Mods Manually
+## How to Install Mods Manually
 
 *If you are updating from a previous version, delete the previous version before installing.
 
@@ -41,6 +41,6 @@ C:\Program Files (x86)\Steam\steamapps\common\HaloWarsDE\Medstar's HaloWarsDE Mo
 
 ***
 <a name="HowToUninstall"></a>
-## How to remove The mod
+## How to Uninstall
 
 All you have to do is either delete the modmanifest.txt or to rename, move or delete the mod folder.
