@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to install mods with Medstar's Mod Manager
+title: Installing Mods with Medstar's Mod Manager
 showTitle: 1
 ---
 
