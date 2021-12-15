@@ -5,20 +5,20 @@ project:
   name: "Halo Wars: Definitive Edition Modding Docs"
 
 collections:
-  api:
-    output: true
-    permalink: "/:collection/:path/"
-    title: API
-    tab-order: 1
-  examples:
-    output: true
-    permalink: "/:collection/:path/"
-    title: Examples
-    tab-order: 2
   guides:
     output: true
-    permalink: "/:collection/:path/"
+    permalink: "/guides/:path/"
     title: Guides
+    tab-order: 1
+  layout_api:
+    output: true
+    permalink: "/docs/:path/"
+    title: Docs
+    tab-order: 2
+  examples:
+    output: true
+    permalink: "/tools/:path/"
+    title: Tools
     tab-order: 3
 
 highlighter: rouge
