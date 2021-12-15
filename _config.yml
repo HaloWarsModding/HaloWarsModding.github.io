@@ -10,7 +10,7 @@ collections:
     permalink: "/guides/:path/"
     title: Guides
     tab-order: 1
-  layout_api:
+  docs:
     output: true
     permalink: "/docs/:path/"
     title: Docs
