@@ -4,7 +4,7 @@ title: The Blender UGX Pipeline
 showTitle: 1
 ---
 
-This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on existing or new rigs.
+This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on new or existing rigs.
 
 ***
 
@@ -32,6 +32,16 @@ or<br>
 This is a very important decision because option 1 requires a little more involvement.<br>
 <br>
 We will start by importing a marine form HWDE.<br>
-<img width="200" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/gettingstarted1.PNG?raw=true"><br>
+<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/gettingstarted1.PNG?raw=true"><br>
 **Note**: A skeleton **is required** for the tool to function, and **all meshes must be skinned**.<br>
 This guide will assume at this point that you have a rigged mesh ready to go.<br>
+
+## HWDE Mesh Gotchas
+### 
+If you wish to use a new mesh on existing animations (and thus the existing rig) you must prepare the model a little bit.<br>
+To start, you must apply transforms (Ctrl + A) on the rig. This will remove the unncessary scaling.<br>
+<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply1.PNG?raw=true"><br>
+Then you must remove the parent from the mesh.<br>
+<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply2.PNG?raw=true"><br>
+Then you must apply the **scale only** to the mesh.<br>
+<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply3.PNG?raw=true">
