@@ -13,7 +13,7 @@ To get ready, you will first need a few things.<br>
 [Blender 2.91 or higher](https://www.blender.org/download/releases/2-91) <br>
 Blender is the 3d package that this tool is designed around. This tutorial will not go in-depth into how to use Blender. It is assumed that you already have a basic understanding of the tool.<br>
 <br>
-[StumpyUGXPipeline](TODO)<br>
+[StumpyUGXPipeline](https://github.com/HaloWarsModding/StumpyUGXPipeline/releases)<br>
 StumpyUGXPipeline is a set of tools needed to convert from .dae to .gr2, and then .gr2 to .ugx. It also provides an interface within blender to automate many things.<br>
 <br>
 Once you have these two tools, you will need to install the Pipeline tool through Blender.<br>
@@ -31,18 +31,19 @@ or<br>
 **2)** A new mesh on a new rig.<br>
 This is a very important decision because option 1 requires a little more involvement.<br>
 <br>
-We will start by importing a marine form HWDE. This was obtained through 3ds Max. If you are using a fully custom mesh and rig you can [skip to the overview](#Overview).<br>
+We will start by importing a marine from HWDE. This was obtained through 3ds Max. If you are using a fully custom mesh and rig you can [skip to the overview](#Overview).<br>
 <img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/gettingstarted1.PNG?raw=true"><br>
 **Note**: A skeleton **is required** for the tool to function, and **all meshes must be skinned**.<br>
 
 ## HWDE Mesh Gotchas
 ### Preparing a mesh obtained through the 3ds Max script
 If you wish to use a new mesh on existing animations (and thus the existing rig) you must prepare the model.<br>
+If it is a custom mesh, it must be in the exact same pose as the target anims rig. If you are targeting the marine, your custom mesh should be in the exact same pose as the HWDE marine mesh obtained through 3ds Max.
 To start, you must apply transforms (Ctrl + A) on the rig. This will remove the unncessary scaling.<br>
 <img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/apply1.PNG?raw=true"><br>
 Then you must remove the parent from the mesh.<br>
 <img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/apply2.PNG?raw=true"><br>
-Then you must apply the **scale only** to the mesh.<br>
+Then you must apply (Ctrl + A) **only scale** to the mesh.<br>
 <img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/apply3.PNG?raw=true"><br>
 Your mesh is now ready to go like any other.<br>
 
@@ -67,6 +68,7 @@ You can find the global list of materials in the "World Properties" tab in the p
 If you click on a material, it will show you all of its settings.<br>
 First, there are the environment settings. These pertain to how the model shows up in the lit world of Halo Wars.<br>
 Next, there are several texture paths, each with a UVW velocity (texture scrolling, think shields) and a channel (usage not implemented yet).<br>
+Here, you can specify the paths to your textures. They must be relative to your mods art folder, and without a file extension. So if your texture is in ```[Mod Folder]/art/unsc/custom/texture.ddx``` you would enter ```unsc/custom/texture```.
 Lastly, there are flags. These do a number of different things:<br>
 **ColorGloss**: Determines if glossyness is colored.<br>
 **TwoSided**: If checked the mesh's backfaces will not be culled. Only check if you have a reason to, this increases rendering resources needed for the mesh by times two.<br>
