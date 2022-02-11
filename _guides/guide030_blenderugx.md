@@ -26,22 +26,59 @@ Then, locate the zip archive and add it. You are now all set.<br>
 ## Getting Started
 ### Deciding what to make<br>
 When thinking of what you will make with the tools, it is important to know that there are two categories to pick from.<br>
-1) A new mesh on an existing rig.<br>
+**1)** A new mesh on an existing rig.<br>
 or<br>
-2) A new mesh on a new rig.<br>
+**2)** A new mesh on a new rig.<br>
 This is a very important decision because option 1 requires a little more involvement.<br>
 <br>
-We will start by importing a marine form HWDE.<br>
+We will start by importing a marine form HWDE. This was obtained through 3ds Max<br>
 <img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/gettingstarted1.PNG?raw=true"><br>
 **Note**: A skeleton **is required** for the tool to function, and **all meshes must be skinned**.<br>
 This guide will assume at this point that you have a rigged mesh ready to go.<br>
 
 ## HWDE Mesh Gotchas
-### 
+### Preparing a mesh obtained through the 3ds Max script
 If you wish to use a new mesh on existing animations (and thus the existing rig) you must prepare the model a little bit.<br>
 To start, you must apply transforms (Ctrl + A) on the rig. This will remove the unncessary scaling.<br>
-<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply1.PNG?raw=true"><br>
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply1.PNG?raw=true"><br>
 Then you must remove the parent from the mesh.<br>
-<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply2.PNG?raw=true"><br>
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply2.PNG?raw=true"><br>
 Then you must apply the **scale only** to the mesh.<br>
-<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply3.PNG?raw=true">
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply3.PNG?raw=true"><br>
+Your mesh is now ready to go like any other.<br>
+
+### Quirks
+A major quirk is that the maxscript exports meshes flipped on the X axis. Watch out for this, and make sure your normals are correct after correcting this.
+Another quick quirk is that sometimes meshes obtained through the 3ds Max script have incorrect bone weighting. Always double check your weighting.
+
+## Tool Overview
+###Materials
+This tool has a built-in system for materials. It allows you to define all of the settings that the game needs, including texture paths.<br>
+You can find the global list of materials in the "World Properties" tab in the properties menu. Here, you can define as many materials as you need for your export.<br>
+<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/material1.PNG?raw=true">
+<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/material2.PNG?raw=true"><br>
+If you click on a material, it will show you all of its settings.<br>
+First, there are the environment settings. These pertain to how the model shows up in the lit world of Halo Wars.<br>
+Next, there are several texture paths, each with a UVW velocity (texture scrolling, think shields) and a channel (usage not implemented yet).<br>
+Lastly, there are flags. These do a number of different things:<br>
+**ColorGloss**: Determines if glossyness is clored.
+**TwoSided**: If checked the mesh's backfaces will not be culled. Only check if you have a reason to, this increases rendering resources needed for the mesh by times two.
+**GlobelEnv:** TBD
+**LocalReflection**: Determines if the mesh reflects on itself or not.
+**OpacityValid**: TBD <br>
+**DisableShadows**: Disables shadows from this model.<br>
+**TerainConform**: Makes the mesh into a decal.<br>
+**DisableShadowReception**: Disables shadows from showing up on this model.<br>
+<br>
+Now, you will need every mesh to have a material applied to it in order to export. To do this, just go to the "Object Properties" tab in the properties menu.<br>
+<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/object4.PNG?raw=true"><br>
+Here, there is a dropdown that lets you select one of your global materials for this object. You need a material for each object to export.<br>
+<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/object2.PNG?raw=true"><br>
+
+
+All thats left is to export!<br>
+Simply find the export menu next to the rest.<br>
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/export1.PNG?raw=true"><br>
+<br>
+Now you will see the export window pop up. You will notice some options.
+
