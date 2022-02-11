@@ -10,6 +10,7 @@ This guide will go into how to use the StumpyUGXPipeline to create new meshes an
 
 ## Setting Up
 To get ready, you will first need a few things.<br>
+<br>
 [Blender 2.91 or higher](https://www.blender.org/download/releases/2-91) <br>
 Blender is the 3d package that this tool is designed around. This tutorial will not go in-depth into how to use Blender. It is assumed that you already have a basic understanding of the tool.<br>
 <br>
@@ -33,7 +34,6 @@ This is a very important decision because option 1 requires a little more involv
 <br>
 We will start by importing a marine from HWDE. This was obtained through 3ds Max. If you are using a fully custom mesh and rig you can [skip to the overview](#Overview).<br>
 <img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/gettingstarted1.PNG?raw=true"><br>
-**Note**: A skeleton **is required** for the tool to function, and **all meshes must be skinned**.<br>
 
 ## HWDE Mesh Gotchas
 ### Preparing a mesh obtained through the 3ds Max script
@@ -58,7 +58,8 @@ Another quick quirk is that sometimes meshes obtained through the 3ds Max script
 This guide will assume at this point that you have a rigged mesh ready to go.<br>
 
 ### Mesh Settings
-In order for your mesh to show up in the correct orientation in game, it is important to note that you must have your mesh's front facing the *negative Y** axis, and right facing the *negative X* axis. Up is obviously positive Z.<br>
+In order for your mesh to show up in the correct orientation in game, you must have your mesh's front facing the **negative Y** axis, and right facing the **negative X** axis. Up is obviously positive Z.<br>
+Also, a skeleton **is required** for the tool to function, and **all meshes must be skinned**.<br>
 
 ### Materials
 This tool has a built-in system for materials. It allows you to define all of the settings that the game needs, including texture paths.<br>
