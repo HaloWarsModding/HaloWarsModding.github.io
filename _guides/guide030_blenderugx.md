@@ -32,18 +32,18 @@ or<br>
 This is a very important decision because option 1 requires a little more involvement.<br>
 <br>
 We will start by importing a marine form HWDE. This was obtained through 3ds Max. If you are using a fully custom mesh and rig you can [skip to the overview](#Overview).<br>
-<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/gettingstarted1.PNG?raw=true"><br>
+<img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/gettingstarted1.PNG?raw=true"><br>
 **Note**: A skeleton **is required** for the tool to function, and **all meshes must be skinned**.<br>
 
 ## HWDE Mesh Gotchas
 ### Preparing a mesh obtained through the 3ds Max script
-If you wish to use a new mesh on existing animations (and thus the existing rig) you must prepare the model a little bit.<br>
+If you wish to use a new mesh on existing animations (and thus the existing rig) you must prepare the model.<br>
 To start, you must apply transforms (Ctrl + A) on the rig. This will remove the unncessary scaling.<br>
-<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply1.PNG?raw=true"><br>
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/apply1.PNG?raw=true"><br>
 Then you must remove the parent from the mesh.<br>
-<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply2.PNG?raw=true"><br>
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/apply2.PNG?raw=true"><br>
 Then you must apply the **scale only** to the mesh.<br>
-<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/apply3.PNG?raw=true"><br>
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/apply3.PNG?raw=true"><br>
 Your mesh is now ready to go like any other.<br>
 
 ### Quirks
@@ -62,13 +62,13 @@ In order for your mesh to show up in the correct orientation in game, it is impo
 ### Materials
 This tool has a built-in system for materials. It allows you to define all of the settings that the game needs, including texture paths.<br>
 You can find the global list of materials in the "World Properties" tab in the properties menu. Here, you can define as many materials as you need for your export.<br>
-<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/material1.PNG?raw=true">
-<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/material2.PNG?raw=true"><br>
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/material1.PNG?raw=true">
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/material2.PNG?raw=true"><br>
 If you click on a material, it will show you all of its settings.<br>
 First, there are the environment settings. These pertain to how the model shows up in the lit world of Halo Wars.<br>
 Next, there are several texture paths, each with a UVW velocity (texture scrolling, think shields) and a channel (usage not implemented yet).<br>
 Lastly, there are flags. These do a number of different things:<br>
-**ColorGloss**: Determines if glossyness is clored.<br>
+**ColorGloss**: Determines if glossyness is colored.<br>
 **TwoSided**: If checked the mesh's backfaces will not be culled. Only check if you have a reason to, this increases rendering resources needed for the mesh by times two.<br>
 **GlobelEnv:** TBD<br>
 **LocalReflection**: Determines if the mesh reflects on itself or not.<br>
@@ -78,16 +78,16 @@ Lastly, there are flags. These do a number of different things:<br>
 **DisableShadowReception**: Disables shadows from showing up on this model.<br>
 <br>
 Now, you will need every mesh to have a material applied to it in order to export. To do this, just go to the "Object Properties" tab in the properties menu.<br>
-<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/object4.PNG?raw=true"><br>
+<img width="250" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/object4.PNG?raw=true"><br>
 Here, there is a dropdown that lets you select one of your global materials for this object. You will need a material applied to each object before exporting. Multiple objects can use the same material, 
-and only materialas that are used in the export will be baked into the .ugx.<br>
-<img width="175" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/object2.PNG?raw=true"><br>
+and only materials that are used in the export will be baked into the .ugx.<br>
+<img width="250" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/object2.PNG?raw=true"><br>
 <br>
 
 ### Exporting
 All thats left is to export!<br>
 Simply find the export menu next to the rest.<br>
-<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxtoolchain/export1.PNG?raw=true"><br>
+<img width="600" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/export1.PNG?raw=true"><br>
 <br>
 Now you will see the export window pop up. You will notice some options.<br>
 **Back/Right/Up**: These determine the orientation of the exported model. Note that these are in in-game axis rather than Blender's.<br>
