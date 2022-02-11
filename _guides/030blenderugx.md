@@ -32,7 +32,7 @@ or<br>
 **2)** A new mesh on a new rig.<br>
 This is a very important decision because option 1 requires a little more involvement.<br>
 <br>
-We will start by importing a marine from HWDE. This was obtained through 3ds Max. If you are using a fully custom mesh and rig you can [skip to the overview](#Overview).<br>
+We will start by importing a marine from HWDE. This was obtained through 3ds Max.<br>If you are using a fully custom mesh and rig you can [skip to the overview](#Overview).<br>
 <img width="400" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/gettingstarted1.PNG?raw=true"><br>
 
 ## HWDE Mesh Gotchas
