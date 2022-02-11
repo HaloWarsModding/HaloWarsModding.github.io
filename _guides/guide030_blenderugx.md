@@ -92,9 +92,9 @@ Simply find the export menu next to the rest.<br>
 <img width="600" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/export1.PNG?raw=true"><br>
 <br>
 Now you will see the export window pop up. You will notice some options.<br>
-**Back/Right/Up**: These determine the orientation of the exported model. Note that these are in in-game axis rather than Blender's.<br>
+**Back/Right/Up**: These determine the orientation of the exported model. Note that these are in in-game axis rather than Blender's. The default is good, unless you need something specific.<br>
 **Export Meshes**: Toggles generation of a .ugx mesh file. Useful for just exporting animations.<br>
-**Selected Only**: Determines if only the selected objects will be exported. Node that you must also select an armature.<br>
+**Selected Only**: Determines if only the selected objects will be exported. Note that you must also select an armature.<br>
 **Selected Armature**: Allows you to select the rig you want to include in the .ugx/.uax.<br>
 **Exports Animations**: Toggles generation of .uax files.<br>
 **All Actions**: If toggled, a .uax will be made for each action in the .blend. Otherwise just uses current action on selected armature.
