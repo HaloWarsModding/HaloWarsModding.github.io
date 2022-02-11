@@ -48,7 +48,7 @@ Then you must apply (Ctrl + A) **only scale** to the mesh.<br>
 Your mesh is now ready to go like any other.<br>
 
 ### Quirks
-A major quirk is that the maxscript exports meshes flipped on the X axis. Watch out for this, and make sure your normals are correct after correcting this.
+A major quirk is that the maxscript exports meshes flipped on the X axis. Watch out for this, and make sure your normals are correct after correcting this.<br>
 Another quick quirk is that sometimes meshes obtained through the 3ds Max script have incorrect bone weighting. Always double check your weighting.
 
 ***
@@ -66,9 +66,9 @@ You can find the global list of materials in the "World Properties" tab in the p
 <img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/material1.PNG?raw=true">
 <img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/ugxpipeline/material2.PNG?raw=true"><br>
 If you click on a material, it will show you all of its settings.<br>
-First, there are the environment settings. These pertain to how the model shows up in the lit world of Halo Wars.<br>
-Next, there are several texture paths, each with a UVW velocity (texture scrolling, think shields) and a channel (usage not implemented yet).<br>
-Here, you can specify the paths to your textures. They must be relative to your mods art folder, and without a file extension. So if your texture is in ```[Mod Folder]/art/unsc/custom/texture.ddx``` you would enter ```unsc/custom/texture```.
+First, there are the environment settings. These pertain to how the model shows up in the lit world of Halo Wars.<br><br>
+Next, there are several texture paths, each with a UVW velocity (texture scrolling, think shields) and a channel (usage not implemented yet).<br><br>
+Here, you can specify the paths to your textures. They must be relative to your mods art folder, and without a file extension. So if your texture is in<br> ```[Mod Folder]/art/unsc/custom/texture.ddx``` you would enter ```unsc/custom/texture```.<br><br>
 Lastly, there are flags. These do a number of different things:<br>
 **ColorGloss**: Determines if glossyness is colored.<br>
 **TwoSided**: If checked the mesh's backfaces will not be culled. Only check if you have a reason to, this increases rendering resources needed for the mesh by times two.<br>
