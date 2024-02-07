@@ -9,7 +9,7 @@ title: Welcome
 This is the home for all documentation on modding Halo Wars: Definitive Edition.
 These docs will cover everything from the basics like modifying a unit, to rigging and importing new models and beyond.
 
-If you are not already a part of the community, we recommend joining the [Halo Wars Modding Discord](https://discord.gg/t52GdQX)
+If you are not already a part of the community, we recommend joining the [Halo Wars Modding Discord](https://discord.gg/GuvUCgqz8d)
 
 ***
 
