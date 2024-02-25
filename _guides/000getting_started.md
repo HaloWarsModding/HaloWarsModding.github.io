@@ -19,7 +19,7 @@ If you are a beginner, we recommend reading this page top to bottom twice before
 ### PHXTool - For Extracting Halo Wars: DE Content
 <img width="422" height="279" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/phxtool.png?raw=true">
 
-The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. It can be downloaded [here](https://github.com/HaloMods/HaloWarsDocs/releases).
+The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. It can be downloaded [here](https://github.com/HaloMods/HaloWarsDocs/releases). If for some reason you have issues with that download, such as errors when converting files or conversion issues regarding excessively long decimals, try using [this](https://drive.google.com/file/d/122IhrnDi3Oh1gx-tDaCuCi-oZVbIc_tp/view?usp=sharing) version instead.
 
 The tool has several options. The 'ERA Expand Path' field allows you to specify where the archive will be dumped to. It is recommended to set this to an "Extract" folder either:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In your game's install directory (Steam users \| Example: C:/Program Files (x86)/Steam/steamapps/common/HaloWarsDE).<br>
