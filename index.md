@@ -6,6 +6,9 @@ title: Welcome
 
 
 # Welcome to the Halo Wars Modding wiki!
+
+> *NOTICE: THIS WIKI IS STILL A WORK IN PROGRESS. IF SOMETHING YOU WANT TO MODIFY IS NOT YET DOCUMENTED, THEN IT IS HIGHLY RECOMMENDED TO JOIN THE MODDING DISCORD TO ASK FOR ASSISTANCE*
+
 This is the home for all documentation on modding Halo Wars: Definitive Edition.
 These docs will cover everything from the basics like modifying a unit, to rigging and importing new models and beyond.
 
