@@ -23,8 +23,6 @@ If you're a beginner, we recommend reading this page from top to bottom twice be
 
 The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. It can be downloaded [here](https://github.com/HaloMods/HaloWarsDocs/releases). If you encounter issues with that download, such as errors when converting files or conversion issues regarding excessively long decimals, try using [this](https://drive.google.com/file/d/122IhrnDi3Oh1gx-tDaCuCi-oZVbIc_tp/view?usp=sharing) version instead.
 
-#
-
 The tool has several options. The `ERA Expand Path` field allows you to specify where the archive will be dumped to. It is recommended to set this to an "Extract" folder either:
 
 - In your game's install directory (Steam) `C:/Program Files (x86)/Steam/steamapps/common/HaloWarsDE`
@@ -34,8 +32,6 @@ The `ERA Build Path` field allows you to specify where you want an archive to be
 
 *Note: Always make a backup of all your files before modifying anything. Rebuilding an archive into your install directory will overwrite the original file unless `Don't overwrite existing files` is checked.*
 
-# 
- 
 To unpack an `.era` all you must do is drag the `.era` file into the tool's GUI. The tool will then unpack all of the files contained within the archive to the path specified in the `ERA Expand Path`.
 
 After the files have been extracted, you will find an `.eradef` file alongside the archive's contents. This file is a manifest for all of the files contained within the archive and can be edited to include new files. All files specified in the `.eradef` are relative to the file itself.
@@ -81,8 +77,6 @@ Inside of your `ModManifest.txt` file, you can specify paths for the game to loa
 
 *Note: Windows Store version of the game can __ONLY__ load mods from folders in `C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`. There is nothing we can do about this.*
 
-# 
- 
 For the Steam version, however, mod folders can be placed wherever you want, even on another drive if you have one.
 
 Go ahead and create a folder within the confines of your game version, and put the path of this folder in the ModManifest.txt.
@@ -102,8 +96,6 @@ Copy the `leaders.xml` into your new `(mod)/data` folder.
 
 *Note: any file in your mod directory that has the same path and name as one from the base game will overwrite the original. In this case, we're overwriting the `data/leaders.xml` file. This file will be treated as the only one that exists upon loading into the game.*
 
-# 
- 
 Now, open the `leaders.xml` file that you just copied to your `(mod)/data` folder. In this file, you will see several `<Leader>` nodes. These nodes contain all of the information the game uses for each specific leader, including their name, starting unit, and starting resources.
 The one we're after is the one with `Name="Cutter"`.
 
@@ -144,7 +136,7 @@ While we're here, let's find the line
 
 `<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>`
 
-This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to `unsc_inf_marine_01`. This will set the starting unit to the marine squad. For more info on squads after you are through with this guide, click [here](/docs/docs_a2_squads/#/layout_api/). 
+This line's value can be set to any squad name from `squads.xml`, but for now, try just changing it to `unsc_inf_marine_01`. This will set the starting unit to the marine squad.
 
 Now try starting your game!
 
@@ -153,4 +145,3 @@ Now try starting your game!
 If all went well, when you start a skirmish mission as Captain Cutter, you should notice that your population capacity is whatever you set it to before (here I set it to 99, hence 1/99), and now you also start with a marine squad rather than a warthog!
 
 This was just a simple file edit to get you familiar with how the modding environment is set up. For more in-depth tutorials, please see the [Guides](#/guides) tab on the left of the page! There is so much more that can be done!
-
