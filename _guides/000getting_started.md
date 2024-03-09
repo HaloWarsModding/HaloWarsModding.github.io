@@ -46,7 +46,7 @@ To rebuild an `.era` simply drag the `.eradef` into the tool, just as you would 
 
 Almost all of Halo Wars data files are in `.xml`. So with that in mind, it's a good idea to install and use a text editor with syntax highlighting.
 
-Pictured from left to right: [Notepad++](https://notepad-plus-plus.org/downloads/), [Visual Studio Code](https://code.visualstudio.com/download), and [Sublime Text 3](https://www.sublimetext.com/3).
+Pictured from left to right: [Notepad++](https://notepad-plus-plus.org/downloads/), [Visual Studio Code](https://code.visualstudio.com/download), and [Sublime Text 3](https://www.sublimetext.com/download).
 
 Notepad++ and Visual Studio Code are completely free, and Sublime Text 3 has an indefinite trial period. All three are excellent programs to edit `.xml` files. If you have another program that you prefer, you can use that, of course. They are just text files after all.
 
@@ -73,7 +73,7 @@ ModManifest is a `.txt` file that tells the game where to load external content 
 -  (Steam) `C:/Users/'USER'/AppData/Local/Halo Wars`
 -  (Windows Store) `C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`
 
-Inside of your `ModManifest.txt` file, you can specify paths for the game to load mods from. Each path must be on its own line. To disable a path without erasing it, simply put a semi-colon (;) in front of it. PHXTool has a GUI to automate this process, if you prefer it. It can be accessed by pressing the `Edit ModManifest.txt for (Version)` button. This button will also create the file if you do not have one already.
+Inside of your `ModManifest.txt` file, you can specify paths for the game to load mods from. Each path must be on its own line. To disable a path without erasing it, simply put a semi-colon `(;)` in front of it. PHXTool has a GUI to automate this process, if you prefer it. It can be accessed by pressing the `Edit ModManifest.txt for (Version)` button. This button will also create the file if you do not have one already.
 
 *Note: Windows Store version of the game can __ONLY__ load mods from folders in `C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`. There is nothing we can do about this.*
 
@@ -87,11 +87,11 @@ Now that your mod folder is all set up, now would be a good time to learn how to
 
 ![Unpacking ERA](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackingera_nofolder.png?raw=true) ![Unpacked ERA](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackedera_folder.png?raw=true)
 
-First, make sure you have set your expand path. Once you have verified that it is set where you want it, simply locate the root.era file in your game's installation directory and drag it into PHXTool. PHXTool will now unpack the archive. Once it is done, your expand path should look like the image on the right.
+First, make sure you have set your expand path. Once you have verified that it is set where you want it, simply locate the `root.era` file in your game's installation directory and drag it into PHXTool. PHXTool will now unpack the archive. Once it is done, your expand path should look like the image on the right.
 
 The file we're after now is the `leaders.xmb` in the `data` folder.
 
-Once you find this file, drag it into PHXTool just as you did the root.era before. You will notice it creates an .xml file right next to the original .xmb named `leaders.xml`. Now, go to your mod folder and create a folder named `data`. We do this because the contents of the mod folder need to mimic that of the archives the game uses. This means that any file we want to put into our mod must still work within the file structure the game uses.
+Once you find this file, drag it into PHXTool just as you did the root.era before. You will notice it creates an `.xml` file right next to the original .xmb named `leaders.xml`. Now, go to your mod folder and create a folder named `data`. We do this because the contents of the mod folder need to mimic that of the archives the game uses. This means that any file we want to put into our mod must still work within the file structure the game uses.
 Copy the `leaders.xml` into your new `(mod)/data` folder.
 
 *Note: any file in your mod directory that has the same path and name as one from the base game will overwrite the original. In this case, we're overwriting the `data/leaders.xml` file. This file will be treated as the only one that exists upon loading into the game.*
@@ -129,7 +129,7 @@ It will look like this:
 ```
 
 First, let's check out the line `<Pop Type="Unit" Max="99">30</Pop>`.
-This line determines the starting population (the value within the node), as well as the maximum value it can be (the value of the "Max" attribute).
+This line determines the starting population (the value within the node), as well as the maximum value it can be (the value of the `Max` attribute).
 Go ahead and set the value within the node (here it is 30) to whatever you want.
 
 While we're here, let's find the line 
