@@ -1,5 +1,5 @@
 ---
-title: Install Mods
+title: Installing Mods
 description: Install Mods Description
 permalink: /guides/installing-mods
 layout: default
@@ -7,6 +7,11 @@ nav_order: 2
 image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/header.png
 toc: true
 ---
+
+# Squads
+
+Work In Progress
+{: .label .label-blue }
 
 This guide will show you how to install mods, using Leader Overhaul Mod v1.6 as a template.
 

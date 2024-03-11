@@ -7,5 +7,7 @@ nav_order: 1
 image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/header.png
 ---
 
+# Objects
+
 Coming soon
 {: .label .label-yellow }

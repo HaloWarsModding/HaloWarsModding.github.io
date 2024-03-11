@@ -8,6 +8,11 @@ image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resourc
 toc: true
 ---
 
+# Blender UGX Pipeline
+
+Work In Progress
+{: .label .label-blue }
+
 This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on new or existing rigs.
 
 ***

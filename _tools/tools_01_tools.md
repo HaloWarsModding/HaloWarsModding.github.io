@@ -8,6 +8,11 @@ image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resourc
 toc: true
 ---
 
+# Basic Tools
+
+Work In Progress
+{: .label .label-blue }
+
 This page will go through all basic tools that can be used to mod Halo Wars. 
 
 ***

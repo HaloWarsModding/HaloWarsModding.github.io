@@ -8,6 +8,8 @@ image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resourc
 toc: true
 ---
 
+# Making Map Edits
+
 Deprecated
 {: .label .label-red }
 

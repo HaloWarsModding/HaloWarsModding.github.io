@@ -8,6 +8,10 @@ image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resourc
 toc: true
 ---
 
+# Tactics
+
+Work In Progress
+{: .label .label-blue }
 
 This page will go through the basics of creating and editting tactics files. 
 

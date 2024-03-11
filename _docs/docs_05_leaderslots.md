@@ -8,6 +8,10 @@ image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resourc
 toc: true
 ---
 
+# Adding Leader Slots
+
+Work In Progress
+{: .label .label-blue }
 
 ## **EDITING THE LEADERPICKER.GFX FILE + Tips .gfx file editing in general**
 

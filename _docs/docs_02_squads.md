@@ -8,6 +8,11 @@ image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resourc
 toc: true
 ---
 
+# Squads
+
+Work In Progress
+{: .label .label-blue }
+
 This page will go through the basics of creating, editing and understanding the squads.xml file.
 
 
