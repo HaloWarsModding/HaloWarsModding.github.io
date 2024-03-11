@@ -4,7 +4,7 @@ description: Map Edits Description
 permalink: /guides/map-edits
 layout: default
 nav_order: 5
-image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/header.png
+image: https://raw.githubusercontent.com/CinderellaKuru/Dev.HaloWarsModding/master/resources/images/metadata/header.png
 toc: true
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Welcome
-description: Welcome Description
+description: "Explore comprehensive documentation and a collaborative wiki for modding Halo Wars: Definitive Edition. Dive into guides, tools, and resources to learn more about the in-depth of the game!"
 layout: home
 nav_order: 1
-image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/header.png
+image: https://raw.githubusercontent.com/CinderellaKuru/Dev.HaloWarsModding/master/resources/images/metadata/header.png
 toc: true
 ---
 
