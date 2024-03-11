@@ -2,6 +2,7 @@
 layout: page
 title: Installing Mods
 showTitle: 1
+categories: guides
 ---
 
 This guide will show you how to install mods, using Leader Overhaul Mod v1.6 as a template.

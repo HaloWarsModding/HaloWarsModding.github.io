@@ -2,6 +2,7 @@
 layout: page
 title: Basic Tool Overview
 showTitle: 1
+categories: tools
 ---
 
 This page will go through all basic tools that can be used to mod Halo Wars. 

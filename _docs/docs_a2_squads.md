@@ -2,6 +2,7 @@
 layout: page
 title: Squads
 showTitle: 1
+categories: docs
 ---
 
 This page will go through the basics of creating, editing and understanding the squads.xml file.

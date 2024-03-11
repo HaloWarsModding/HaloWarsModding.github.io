@@ -2,6 +2,7 @@
 layout: page
 title: Getting Started
 showTitle: 1
+categories: guides
 ---
 
 Whether you're a new modder or need to brush up on the basics, this is the place to be. This page will focus on what you need to begin making a mod.

@@ -2,6 +2,7 @@
 layout: page
 title: GLS (Lighting) Files
 showTitle: 1
+categories: docs
 ---
 
 The GLS file(s) handles map lighting on a per-map basis, and they can be found in each dedicated map folder contained within the `(ModName)\scenario` directory. It DOES NOT however, control the Fog of War, as that is handled globally in a different file.

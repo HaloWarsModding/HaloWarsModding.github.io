@@ -2,6 +2,7 @@
 layout: page
 title: Tactics
 showTitle: 1
+categories: docs
 ---
 
 This page will go through the basics of creating and editting tactics files. 

@@ -2,6 +2,7 @@
 layout: page
 title: The Blender UGX Pipeline
 showTitle: 1
+categories: tools
 ---
 
 This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on new or existing rigs.

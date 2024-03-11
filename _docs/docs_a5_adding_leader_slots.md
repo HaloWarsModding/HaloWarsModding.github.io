@@ -1,3 +1,10 @@
+---
+layout: page
+title: Adding Leader Slots
+showTitle: 1
+categories: docs
+---
+
 ## **EDITING THE LEADERPICKER.GFX FILE + Tips .gfx file editing in general**
 
 This guide is a runthrough on the `leaderpicker.gfx` file. This controls the leader selection menu and can be modified to reposition and modify the menu to look wildly different from what it normally does.
