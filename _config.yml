@@ -3,9 +3,14 @@ description: "Explore comprehensive documentation and a collaborative wiki for m
 theme: just-the-docs
 color_scheme: dark
 logo: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/logo.png
-favicon: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/icon.png
+favicon: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/icon.ico
 url: https://cinderellakuru.github.io/Dev.HaloWarsModding.github.io/
 footer_content: "Not finding what you're looking for? Make sure to join the <a href='https://discord.gg/nFB89Wu5n9'>Halo Wars Modding Discord</a> to ask questions!"
+aux_links:
+  "Discord":
+    - "https://discord.gg/nFB89Wu5n9"
+   "Github":
+    - "https://github.com/HaloWarsModding/HaloWarsModding.github.io"
 
 callouts:
   highlight:
