@@ -10,12 +10,12 @@ collections:
     permalink: "/guides/:path/"
     title: Guides
     tab-order: 1
-  layout_api:
+  docs:
     output: true
     permalink: "/docs/:path/"
     title: Docs
     tab-order: 2
-  examples:
+  tools:
     output: true
     permalink: "/tools/:path/"
     title: Tools
