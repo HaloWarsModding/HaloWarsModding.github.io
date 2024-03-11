@@ -2,8 +2,8 @@ title: "Halo Wars: DE Modding Docs"
 description: "Explore comprehensive documentation and a collaborative wiki for modding Halo Wars: Definitive Edition. Dive into guides, tools, and resources to learn more about the in-depth of the game!"
 theme: just-the-docs
 color_scheme: dark
-logo: \resources\images\metadata\icon.png
-favicon: \resources\images\metadata\icon.png
+logo: /resources/images/metadata/icon.png
+favicon: /resources/images/metadata/icon.png
 url: https://cinderellakuru.github.io/Dev.HaloWarsModding.github.io/
 footer_content: "Not finding what you're looking for? Make sure to join the <a href='https://discord.gg/nFB89Wu5n9'>Halo Wars Modding Discord</a> to ask questions!"
 
