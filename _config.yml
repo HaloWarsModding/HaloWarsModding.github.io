@@ -36,11 +36,6 @@ collections:
     output: true
 
 just_the_docs:
-social_links: 
-    title: "GitHub"
-      url: "https://github.com/HaloWarsModding/HaloWarsModding.github.io"
-    title: "Discord"
-      url: "https://discord.gg/nFB89Wu5n9"
   show_last_modified_at: true 
   collections:
     guides:
