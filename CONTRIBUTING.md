@@ -1,6 +1,4 @@
-# Contributing to programming-pages
-
-## Guidelines
+# Guidelines
 
 Contributions are welcome in the form of useful [pull requests](https://help.github.com/articles/creating-a-pull-request/) that do one of the following:
 
@@ -10,13 +8,9 @@ Contributions are welcome in the form of useful [pull requests](https://help.git
 1. Produce a bug fix or performance improvement
 1. Implement a useful new feature
 
-## A Contributor's Guide
+# A Contributor's Guide
 
-If you're eager to contribute to our documentation, it's essential to understand how the architecture operates. Follow these steps to ensure smooth integration:
-
-### Understanding the Architecture
-
-First, familiarize yourself with the core components:
+If you're eager to contribute to our documentation, it's essential to understand how the architecture operates. 
 
 ![](resources/images/contributing/1.png)
 ![](resources/images/contributing/2.png)
