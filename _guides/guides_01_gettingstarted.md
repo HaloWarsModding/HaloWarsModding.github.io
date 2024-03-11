@@ -55,7 +55,7 @@ To rebuild an `.era` simply drag the `.eradef` into the tool, just as you would 
 
 Almost all of Halo Wars data files are in `.xml`. So with that in mind, it's a good idea to install and use a text editor with syntax highlighting.
 
-Pictured from left to right: [Notepad++](https://notepad-plus-plus.org/downloads/), [Visual Studio Code](https://code.visualstudio.com/download), and [Sublime Text 3](https://www.sublimetext.com/download).
+[Notepad++](https://notepad-plus-plus.org/downloads/){: .btn } [Visual Studio Code](https://code.visualstudio.com/download){: .btn .btn-blue } [Sublime Text 3](https://www.sublimetext.com/download){: .btn .btn-green }
 
 Notepad++ and Visual Studio Code are completely free, and Sublime Text 3 has an indefinite trial period. All three are excellent programs to edit `.xml` files. If you have another program that you prefer, you can use that, of course. They are just text files after all.
 
