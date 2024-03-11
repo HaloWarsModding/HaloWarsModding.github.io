@@ -84,7 +84,8 @@ ModManifest is a `.txt` file that tells the game where to load external content 
 
 Inside of your `ModManifest.txt` file, you can specify paths for the game to load mods from. Each path must be on its own line. To disable a path without erasing it, simply put a semi-colon `(;)` in front of it. PHXTool has a GUI to automate this process, if you prefer it. It can be accessed by pressing the `Edit ModManifest.txt for (Version)` button. This button will also create the file if you do not have one already.
 
-*Note: Windows Store version of the game can __ONLY__ load mods from folders in `C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`. There is nothing we can do about this.*
+{: .note }
+Windows Store version of the game can __ONLY__ load mods from folders in `C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`. There is nothing we can do about this.
 
 For the Steam version, however, mod folders can be placed wherever you want, even on another drive if you have one.
 
@@ -103,7 +104,8 @@ The file we're after now is the `leaders.xmb` in the `data` folder.
 Once you find this file, drag it into PHXTool just as you did the root.era before. You will notice it creates an `.xml` file right next to the original .xmb named `leaders.xml`. Now, go to your mod folder and create a folder named `data`. We do this because the contents of the mod folder need to mimic that of the archives the game uses. This means that any file we want to put into our mod must still work within the file structure the game uses.
 Copy the `leaders.xml` into your new `(mod)/data` folder.
 
-*Note: any file in your mod directory that has the same path and name as one from the base game will overwrite the original. In this case, we're overwriting the `data/leaders.xml` file. This file will be treated as the only one that exists upon loading into the game.*
+{: .note }
+Note: any file in your mod directory that has the same path and name as one from the base game will overwrite the original. In this case, we're overwriting the `data/leaders.xml` file. This file will be treated as the only one that exists upon loading into the game.
 
 Now, open the `leaders.xml` file that you just copied to your `(mod)/data` folder. In this file, you will see several `<Leader>` nodes. These nodes contain all of the information the game uses for each specific leader, including their name, starting unit, and starting resources.
 The one we're after is the one with `Name="Cutter"`.
