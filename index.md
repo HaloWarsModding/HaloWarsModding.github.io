@@ -1,9 +1,12 @@
 ---
-layout: page
 title: Welcome
+description: Welcome Description
+permalink: /welcome
+layout: home
+nav_order: 1
+image: resources\images\metadata\header.png
+toc: true
 ---
-
-
 
 # Welcome to the Halo Wars Modding wiki!
 

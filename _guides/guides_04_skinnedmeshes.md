@@ -1,8 +1,9 @@
 ---
 title: Importing Skinned Meshes 
 description: Skinned Meshes Description
-permalink: /docs/importing-skinned-meshes
+permalink: /guides/importing-skinned-meshes
 layout: default
+nav_order: 4
 image: resources\images\metadata\header.png
 toc: true
 ---

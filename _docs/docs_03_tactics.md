@@ -3,6 +3,7 @@ title: Tactics
 description: Tactics Description
 permalink: /docs/tactics
 layout: default
+nav_order: 3
 image: resources\images\metadata\header.png
 toc: true
 ---

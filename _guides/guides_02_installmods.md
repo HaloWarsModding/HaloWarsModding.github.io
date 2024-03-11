@@ -1,8 +1,9 @@
 ---
 title: Install Mods
 description: Install Mods Description
-permalink: /docs/installing-mods
+permalink: /guides/installing-mods
 layout: default
+nav_order: 2
 image: resources\images\metadata\header.png
 toc: true
 ---

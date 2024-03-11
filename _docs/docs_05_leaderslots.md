@@ -3,6 +3,7 @@ title: Adding Leader Slots
 description: Leader Slots Description
 permalink: /docs/leader-slots
 layout: default
+nav_order: 5
 image: resources\images\metadata\header.png
 toc: true
 ---

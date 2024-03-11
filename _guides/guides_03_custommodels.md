@@ -1,8 +1,9 @@
 ---
 title: Creating Custom Models
 description: Custom Models Description
-permalink: /docs/custom-models
+permalink: /guides/custom-models
 layout: default
+nav_order: 3
 image: resources\images\metadata\header.png
 toc: true
 ---

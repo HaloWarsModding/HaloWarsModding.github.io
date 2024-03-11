@@ -3,7 +3,7 @@ description: "Explore comprehensive documentation and a collaborative wiki for m
 theme: just-the-docs
 color_scheme: dark
 url: https://cinderellakuru.github.io/Dev.HaloWarsModding.github.io/
-footer_content: "Not finding what you're looking for? Make sure to join the [Halo Wars Modding Discord](https://discord.gg/nFB89Wu5n9) to ask questions!"
+footer_content: Not finding what you're looking for? Make sure to join the [Halo Wars Modding Discord](https://discord.gg/nFB89Wu5n9) to ask questions!
 
 callouts:
   highlight:

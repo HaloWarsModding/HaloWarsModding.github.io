@@ -3,6 +3,7 @@ title: GLS (Lighting) File
 description: GLS Description
 permalink: /docs/gls
 layout: default
+nav_order: 4
 image: resources\images\metadata\header.png
 toc: true
 ---

@@ -1,8 +1,9 @@
 ---
 title: The Blender UGX Pipeline
 description: UGX Pipeline Description
-permalink: /docs/ugx
+permalink: /tools/ugx
 layout: default
+nav_order: 3
 image: resources\images\metadata\header.png
 toc: true
 ---

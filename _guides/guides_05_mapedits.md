@@ -1,8 +1,9 @@
 ---
 title: Making Map Edits
 description: Map Edits Description
-permalink: /docs/map-edits
+permalink: /guides/map-edits
 layout: default
+nav_order: 5
 image: resources\images\metadata\header.png
 toc: true
 ---

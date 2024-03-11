@@ -3,6 +3,7 @@ title: Squads
 description: Squads Description
 permalink: /docs/squads
 layout: default
+nav_order: 2
 image: resources\images\metadata\header.png
 toc: true
 ---

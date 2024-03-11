@@ -1,8 +1,9 @@
 ---
 title: Basic Tools
 description: Basic Tools Description
-permalink: /docs/tools
+permalink: /tools/basic
 layout: default
+nav_order: 1
 image: resources\images\metadata\header.png
 toc: true
 ---

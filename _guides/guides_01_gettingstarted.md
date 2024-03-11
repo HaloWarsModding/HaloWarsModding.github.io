@@ -1,8 +1,9 @@
 ---
 title: Getting Started
 description: Getting Started Description
-permalink: /docs/getting-started
+permalink: /guides/getting-started
 layout: default
+nav_order: 1
 image: resources\images\metadata\header.png
 toc: true
 ---
