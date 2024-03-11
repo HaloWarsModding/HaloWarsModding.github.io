@@ -8,6 +8,8 @@ image: resources\images\metadata\header.png
 toc: true
 ---
 
+# Getting Started
+
 Stable
 {: .label .label-green }
 
