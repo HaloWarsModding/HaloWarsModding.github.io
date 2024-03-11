@@ -4,10 +4,8 @@ description: Objects Description
 permalink: /docs/objects
 layout: default
 nav_order: 1
-image: resources\images\metadata\header.png
-toc: true
+image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/header.png
 ---
 
-# Your Doc Title
-
-This is the content of your doc.
+Coming soon
+{: .label .label-yellow }

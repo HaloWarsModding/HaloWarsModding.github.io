@@ -4,7 +4,7 @@ description: Basic Tools Description
 permalink: /tools/basic
 layout: default
 nav_order: 1
-image: resources\images\metadata\header.png
+image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/header.png
 toc: true
 ---
 

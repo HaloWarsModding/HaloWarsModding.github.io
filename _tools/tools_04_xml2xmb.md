@@ -4,7 +4,7 @@ description: XML2XMB Description
 permalink: /tools/xml2xmb
 layout: default
 nav_order: 4
-image: resources\images\metadata\header.png
+image: https://github.com/CinderellaKuru/Dev.HaloWarsModding/blob/master/resources/images/metadata/header.png
 toc: true
 ---
 
