@@ -44,7 +44,7 @@ Installation of this program can be found [below](#UGXSDKInstallation).<br>
 The download for StumpyUGXSDK can be found [here](https://github.com/HaloWarsModding/StumpyUGXSDK/releases/download/1.0.0/StumpyUGXSDK.exe) (with source available on [GitHub](https://github.com/HaloWarsModding/StumpyUGXSDK)).<br>
 It requires the Granny3D SDK by RAD Game Tools to function. It can be downloaded [here](https://www.mediafire.com/file/5pwpeiozx7tvja3/granny2_x64.dll/file) (MediaFire link).<br>
 
-<img width="200" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/stumpyugxsdk.png?raw=true">
+<img width="200" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/stumpyugxsdk.png?raw=true">
 
 Once you have downloaded the tool and the Granny3D SDK dll, go ahead an place them side-by-side in your desired directory.<br>
 
@@ -74,15 +74,15 @@ Now you are ready to export. Go to "File" => "Export" => "Export..." and set the
 Under the "File" settings, set yours to match the this:<br>
 **NOTE:** the "Tool Coordinate System" option may have to be tweaked in order to show up correctly in game depending on the orientation of your model in 3DS Max
 
-<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/gr2expfile.png?raw=true">
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/gr2expfile.png?raw=true">
 
 Now under "Animations" set it to match this:
 
-<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/gr2expanim.png?raw=true">
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/gr2expanim.png?raw=true">
 
 And finally under "Models" set it to match this:
 
-<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/gr2expmodel.png?raw=true">
+<img width="300" height="auto" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/gr2expmodel.png?raw=true">
 
 **NOTE:** Each animation must be exported as it's own .gr2 and processed separately. As long as your model's rig does not change, you are free to edit the base mesh without needing to re-process the animations, and vice-versa.<br>
 **NOTE:** Be sure not to exceed 65535 vertices in your model.<br>
