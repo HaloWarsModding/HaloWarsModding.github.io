@@ -28,7 +28,7 @@ If you're a beginner, we recommend reading this page from top to bottom twice be
 # What's Needed?
 
 #### PHXTool - For Extracting Halo Wars: DE Content
-![PHXTool](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/phxtool.png?raw=true)
+![PHXTool](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/phxtool.png?raw=true)
 
 The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. It can be downloaded [here](https://github.com/HaloMods/HaloWarsDocs/releases). If you encounter issues with that download, such as errors when converting files or conversion issues regarding excessively long decimals, try using [this](https://drive.google.com/file/d/122IhrnDi3Oh1gx-tDaCuCi-oZVbIc_tp/view?usp=sharing) version instead.
 
@@ -51,7 +51,7 @@ To rebuild an `.era` simply drag the `.eradef` into the tool, just as you would 
 
 
 ## A Decent Text Editor
-![Text Editors](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/texteditors.png?raw=true)
+![Text Editors](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/texteditors.png?raw=true)
 
 Almost all of Halo Wars data files are in `.xml`. So with that in mind, it's a good idea to install and use a text editor with syntax highlighting.
 
@@ -95,7 +95,7 @@ Now that your mod folder is all set up, now would be a good time to learn how to
 
 ## Getting Into It
 
-![Unpacking ERA](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackingera_nofolder.png?raw=true) ![Unpacked ERA](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackedera_folder.png?raw=true)
+![Unpacking ERA](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/unpackingera_nofolder.png?raw=true) ![Unpacked ERA](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/unpackedera_folder.png?raw=true)
 
 First, make sure you have set your expand path. Once you have verified that it is set where you want it, simply locate the `root.era` file in your game's installation directory and drag it into PHXTool. PHXTool will now unpack the archive. Once it is done, your expand path should look like the image on the right.
 
@@ -151,7 +151,7 @@ This line's value can be set to any squad name from `squads.xml`, but for now, t
 
 Now try starting your game!
 
-![First Mod Success](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/firstmod_success.png?raw=true)
+![First Mod Success](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/firstmod_success.png?raw=true)
 
 If all went well, when you start a skirmish mission as Captain Cutter, you should notice that your population capacity is whatever you set it to before (here I set it to 99, hence 1/99), and now you also start with a marine squad rather than a warthog!
 

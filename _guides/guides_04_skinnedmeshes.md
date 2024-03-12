@@ -65,7 +65,7 @@ Take note of the names of the bones from the Halo Wars model, as it will be easi
 Once the bones have been created and named, navigate to object mode. Select the mesh, then the armature, and press "Ctrl P" on your keyboard. On the menu that pops up, click "with Empty Groups" under "Armature Deform".
 Now, select just the mesh and navigate to the "Object Data Properties", shown in the image below. 
 
-<img width="403" height="563" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/skinmeshes1.png?raw=true">
+<img width="403" height="563" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/skinmeshes1.png?raw=true">
 
 You will see a list of Vertex Groups. Vertex groups are the what determines the influence that a particular bone has on deforming the mesh. 
 You will now want to click on object mode again, but select "Weight Paint" in the drop-down menu. Use weight paint to paint around the areas that each bones should have influence over. Be sure not to leave gaps on the mesh, as those gaps wont be affected by animations or posing.
@@ -73,7 +73,7 @@ After you've finished weight painting for each bone, you may navigate to object 
 
 Now you need to save the new pose as the "rest pose". In object mode, select the mesh and go to the modifier properties, as shown in the image below.
 
-<img width="403" height="563" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/skinmeshes2.png?raw=true">
+<img width="403" height="563" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/skinmeshes2.png?raw=true">
 
 There should already be a modifier there. Click "Copy", then click "Apply" on the top modifier. The mesh will now be incorrectly deformed. Navigate again to pose mode. Just to the right of the mode switching menu is a "Pose" button. Click it, then click "Apply", then "Apply Pose as Rest Pose".
 Once finished, delete the armature you created earlier. If your mesh snaps to a different rotation or scale, simply scale and rotate it back in edit mode, like we did earlier. 
