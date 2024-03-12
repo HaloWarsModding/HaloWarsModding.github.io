@@ -1,13 +1,16 @@
 ---
-layout: page
 title: Welcome
+description: "Explore comprehensive documentation and a collaborative wiki for modding Halo Wars: Definitive Edition. Dive into guides, tools, and resources to learn more about the in-depth of the game!"
+layout: home
+nav_order: 1
+image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
+toc: true
 ---
-
-
 
 # Welcome to the Halo Wars Modding wiki!
 
-> *NOTICE: THIS WIKI IS STILL A WORK IN PROGRESS. IF SOMETHING YOU WANT TO MODIFY IS NOT YET DOCUMENTED, THEN IT IS HIGHLY RECOMMENDED TO JOIN THE MODDING DISCORD TO ASK FOR ASSISTANCE*
+{: .important }
+THIS WIKI IS STILL A WORK IN PROGRESS. IF SOMETHING YOU WANT TO MODIFY IS NOT YET DOCUMENTED, THEN IT IS HIGHLY RECOMMENDED TO JOIN THE MODDING DISCORD TO ASK FOR ASSISTANCE
 
 This is the home for all documentation on modding Halo Wars: Definitive Edition.
 These docs will cover everything from the basics like modifying a unit, to rigging and importing new models and beyond.
@@ -15,8 +18,6 @@ These docs will cover everything from the basics like modifying a unit, to riggi
 If you are not already a part of the community, we recommend joining the [Halo Wars Modding Discord](https://discord.gg/GuvUCgqz8d)
 
 ***
-
-<img align="right" width="385" height="315" src="https://media.discordapp.net/attachments/339462193051336705/709545855115460638/unknown.png?width=770&height=630">
 
 ### What's Possible?
 
@@ -39,6 +40,4 @@ Some things that can only be modified to a limited degree are:
 ***
 
 ### New Modders
-If you are a first time modder, or are still getting the hang of things, we recommend the [Getting Started Page](/guides/000getting_started). Here you will find everything you need to begin making mods.
-
-
+If you are a first time modder, or are still getting the hang of things, we recommend the [Getting Started Page](_guides\guides_01_gettingstarted.md). Here you will find everything you need to begin making mods.

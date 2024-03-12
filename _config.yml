@@ -1,32 +1,52 @@
----
-# default site settings
-# configure these values for your project
-project:
-  name: "Halo Wars: Definitive Edition Modding Docs"
+title: "Halo Wars: DE Modding Docs"
+description: "Explore comprehensive documentation and a collaborative wiki for modding Halo Wars: Definitive Edition. Dive into guides, tools, and resources to learn more about the in-depth of the game!"
+theme: just-the-docs
+color_scheme: dark
+logo: https://raw.githubusercontent.com/CinderellaKuru/Dev.HaloWarsModding/master/resources/images/metadata/logo.png
+favicon: https://raw.githubusercontent.com/CinderellaKuru/Dev.HaloWarsModding/master/resources/images/metadata/favicon.ico
+url: https://cinderellakuru.github.io/Dev.HaloWarsModding.github.io/
+footer_content: "Not finding what you're looking for? Make sure to join the <a href='https://discord.gg/GuvUCgqz8d'>Halo Wars Modding Discord</a> to ask questions!"
+
+callouts:
+  highlight:
+    title: Highlight
+    color: grey-lt
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
 
 collections:
   guides:
+    permalink: "/guides/:title/"
     output: true
-    permalink: "/guides/:path/"
-    title: Guides
-    tab-order: 1
-  layout_api:
+    nav_expand: true
+  tools:
+    permalink: "/tools/:title/"
+    output: true 
+    nav_expand: true
+  docs:
+    permalink: "/docs/:title/"
     output: true
-    permalink: "/docs/:path/"
-    title: Docs
-    tab-order: 2
-  examples:
-    output: true
-    permalink: "/tools/:path/"
-    title: Tools
-    tab-order: 3
+    nav_expand: true
 
-highlighter: rouge
-permalink: pretty
-sass:
-  style: compressed
-
-plugins:
-  - jemoji
-  - jekyll-remote-theme
-remote_theme: pixeldroid/programming-pages
+just_the_docs:
+  show_last_modified_at: true 
+  collections:
+    guides:
+      name: Guides
+      nav_fold: true 
+    tools:
+      name: Tools
+      nav_fold: true
+    docs:
+      name: Docs
+      nav_fold: true
