@@ -8,7 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-#PHXGUI
+# PHXGUI
  
 Coming soon
 {: .label .label-yellow }
