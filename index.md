@@ -3,7 +3,7 @@ title: Welcome
 description: "Explore comprehensive documentation and a collaborative wiki for modding Halo Wars: Definitive Edition. Dive into guides, tools, and resources to learn more about the in-depth of the game!"
 layout: home
 nav_order: 1
-image: https://raw.githubusercontent.com/CinderellaKuru/Dev.HaloWarsModding/master/resources/images/metadata/header.png
+image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---
 
@@ -40,4 +40,4 @@ Some things that can only be modified to a limited degree are:
 ***
 
 ### New Modders
-If you are a first time modder, or are still getting the hang of things, we recommend the [Getting Started Page](/guides/000getting_started). Here you will find everything you need to begin making mods.
+If you are a first time modder, or are still getting the hang of things, we recommend the [Getting Started Page](_guides\guides_01_gettingstarted.md). Here you will find everything you need to begin making mods.
