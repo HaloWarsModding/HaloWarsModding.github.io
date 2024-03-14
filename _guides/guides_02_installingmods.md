@@ -16,7 +16,7 @@ Work In Progress
 Welcome to the world of modding for Halo Wars: Definitive Edition! This guide will walk you through the process of installing mods manually or using Medstar's Mod Manager.
 
 [Medstar's Mod Manager](https://www.moddb.com/downloads/start/226029?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fhalo-wars-de-mod-manager%2Fdownloads){: .btn .btn-purple }
-[WinRAR](https://www.win-rar.com/download.html){: .btn .btn-blue }[7-Zip](https://www.7-zip.org/download.html){: .btn .btn-green }
+[WinRAR](https://www.win-rar.com/download.html){: .btn .btn-blue } [7-Zip](https://www.7-zip.org/download.html){: .btn .btn-green }
 
 
 1. [Getting Started](#getting-started)
@@ -39,9 +39,12 @@ If you prefer a hands-on approach, follow these steps to manually install mods:
 3. **Locate Your Game Directory:**
     Steam
     {: .label }
+    
    - You can place the mod folder anywhere on your PC.
+
    Windows Store
     {: .label }
+    
    - Navigate to `C:\Users\YourUsername\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState`.
 4. **Copy Mod Files:** Open the extracted mod folder and locate the `ModData` folder. Copy the address/path of this folder (or the mod folder itself if `ModData` isn't present).
 5. **Paste Mod Path:** Navigate to `C:\Users\*YourUsername*\AppData\Local\Halo Wars` and create a new text file named `ModManifest.txt`. Paste the copied address/path into this file.
