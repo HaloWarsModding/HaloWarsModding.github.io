@@ -8,7 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Squads
+# Installing Mods
 
 Work In Progress
 {: .label .label-blue }

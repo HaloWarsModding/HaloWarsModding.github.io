@@ -79,13 +79,26 @@ Now that you are familiar with the tools, let's make a mod. The mod we will be c
 First things first.
 ModManifest is a `.txt` file that tells the game where to load external content from. This file can automatically be found and opened using PHXTool, or alternatively can be found in:
 
--  (Steam) `C:/Users/'USER'/AppData/Local/Halo Wars`
--  (Windows Store) `C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`
+Steam
+{: .label }
+
+`C:/Users/'USER'/AppData/Local/Halo Wars`
+
+Windows Store
+{: .label }
+
+`C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`
+
+Steam Deck
+{: .label }
+
+`/home/deck/.local/share/Steam/steamapps/compatdata/459220/pfx/drive_c/users/steamuser/AppData/Local/Halo Wars`
 
 Inside of your `ModManifest.txt` file, you can specify paths for the game to load mods from. Each path must be on its own line. To disable a path without erasing it, simply put a semi-colon `(;)` in front of it. PHXTool has a GUI to automate this process, if you prefer it. It can be accessed by pressing the `Edit ModManifest.txt for (Version)` button. This button will also create the file if you do not have one already.
 
 {: .note }
-Windows Store version of the game can __ONLY__ load mods from folders in `C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`. There is nothing we can do about this.
+The Windows Store version of the game can ONLY load mods from folders in C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState.
+The Steam Deck version of the game can ONLY load mods if the game is installed on the main drive and not on an SD Card.
 
 For the Steam version, however, mod folders can be placed wherever you want, even on another drive if you have one.
 
