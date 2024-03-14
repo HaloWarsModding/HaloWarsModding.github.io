@@ -37,6 +37,7 @@ If you prefer a hands-on approach, follow these steps to manually install mods:
 2. **Extract the Mod:** Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the contents of the mod archive.
 
 3. **Locate Your Game Directory:**
+
     Steam
     {: .label }
     
@@ -55,9 +56,13 @@ If you prefer a hands-on approach, follow these steps to manually install mods:
 Follow these steps to install mods using Medstar's Mod Manager:
 
 1. **Download the Mod:** Start by downloading the mod you want to install. Mods compatible with Medstar's Mod Manager will have a `ModData` folder.
+
 2. **Extract the Mod:** Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the mod archive.
+
 3. **Install Mod Manager:** Download and install Medstar's Mod Manager.
+
 4. **Place Mod in Mod Manager Directory:** Move the mod folder into the `HWDEMods` folder located in the Mod Manager's directory.
+
 5. **Activate Mod:** Follow the instructions provided with Medstar's Mod Manager to activate the mod.
 
 ## How to Uninstall Mods
