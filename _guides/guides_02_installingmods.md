@@ -18,14 +18,13 @@ Welcome to the world of modding for Halo Wars: Definitive Edition! This guide wi
 [Medstar's Mod Manager](https://www.moddb.com/downloads/start/226029?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fhalo-wars-de-mod-manager%2Fdownloads){: .btn .btn-purple }
 [WinRAR](https://www.win-rar.com/download.html){: .btn .btn-blue } [7-Zip](https://www.7-zip.org/download.html){: .btn .btn-green }
 
-
 1. [Getting Started](#getting-started)
 2. [How to Install Mods](#how-to-install-mods)
    - [Manual Approach](#manual-approach)
-   - [Using A Mod Manager](#using-a-mod-manager)
+   - [Using Medstar's Mod Manager](#using-medstar-s-mod-manager)
 3. [How to Uninstall Mods](#how-to-uninstall-mods)
    - [Manual Approach](#manual-approach-1)
-   - [Using A Mod Manager](#using-a-mod-manager-1)
+   - [Using Medstar's Mod Manager](#using-medstar-s-mod-manager-1)
 
 ## How to Install Mods
 
@@ -33,48 +32,47 @@ Welcome to the world of modding for Halo Wars: Definitive Edition! This guide wi
 
 If you prefer a hands-on approach, follow these steps to manually install mods:
 
-1. **Download the Mod:** Start by downloading the mod you want to install. Mods typically come in compressed archive formats like `.rar` or `.zip`.
-2. **Extract the Mod:** Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the contents of the mod archive.
+- Start by downloading the mod you want to install. Mods typically come in compressed archive formats like `.rar` or `.zip`.
+- Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the contents of the mod archive.
 
-3. **Locate Your Game Directory:**
+| Distribution  | Path              | 
+|:--------------|:------------------|
+| Steam         | You can place the mod folder anywhere on your PC |
+| Windows Store | C:\Users\YourUsername\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState | 
 
-    Steam
-    {: .label }
-    
-   - You can place the mod folder anywhere on your PC.
+- Open the extracted mod folder and locate the `ModData` folder. Copy the address/path of this folder (or the mod folder itself if `ModData` isn't present).
+- Navigate to `C:\Users\Username\AppData\Local\Halo Wars` and create a new text file named `ModManifest.txt`. Paste the copied address/path into this file.
+- Save the `ModManifest.txt` file, and you're done! The mod is now installed and ready to use.
 
-   Windows Store
-    {: .label }
-    
-   - Navigate to `C:\Users\YourUsername\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState`.
-4. **Copy Mod Files:** Open the extracted mod folder and locate the `ModData` folder. Copy the address/path of this folder (or the mod folder itself if `ModData` isn't present).
-5. **Paste Mod Path:** Navigate to `C:\Users\*YourUsername*\AppData\Local\Halo Wars` and create a new text file named `ModManifest.txt`. Paste the copied address/path into this file.
-6. **Save and Finish:** Save the `ModManifest.txt` file, and you're done! The mod is now installed and ready to use.
-
-### Using A Mod Manager
+### Using Medstar's Mod Manager
 
 Follow these steps to install mods using Medstar's Mod Manager:
 
-1. **Download the Mod:** Start by downloading the mod you want to install. Mods compatible with Medstar's Mod Manager will have a `ModData` folder.
+- Start by downloading the mod you want to install. Mods compatible with Medstar's Mod Manager will have a `ModData` folder.
 
-2. **Extract the Mod:** Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the mod archive.
+- Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the mod archive.
 
-3. **Install Mod Manager:** Download and install Medstar's Mod Manager.
+- Download and install Medstar's Mod Manager.
 
-4. **Place Mod in Mod Manager Directory:** Move the mod folder into the `HWDEMods` folder located in the Mod Manager's directory.
+- Move the mod folder into the `HWDEMods` folder located in the Mod Manager's directory.
 
-5. **Activate Mod:** Follow the instructions provided with Medstar's Mod Manager to activate the mod.
+![](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/modmanager/1.png)
+
+{: .note }
+When closing the mod manager, ALWAYS close it using the X within the mod manager, otherwise it will remain running in the background and won't let you reopen it unless you end the process with task manager.
 
 ## How to Uninstall Mods
 
 ### Manual Approach
 
-Uninstalling mods is straightforward:
+To uninstall mods manually:
 
-- **Manual Uninstallation:** Delete the `ModManifest.txt` file or the entire mod folder from your game directory.
+- Delete the `ModManifest.txt` file, and the game will no longer load the mod.
 
-### Using A Mod Manager
+### Using Medstar's Mod Manager
 
-Uninstalling mods with Medstar's Mod Manager is simple:
+Uninstalling mods with Medstar's Mod Manager is straightforward:
 
-- **Deactivate Mod:** Use Medstar's Mod Manager to deactivate the mod. You can choose to play the vanilla version of the game at any time without uninstalling mods.
+- Open Medstar's Mod Manager and navigate to the "My Mods" section.
+- Click on "My Mods," and the program will open your file explorer to the mod directory.
+- From here, you can easily delete any installed mods. Remember, you can also revert to the original game state by selecting "Vanilla" within the tool.
