@@ -56,7 +56,7 @@ Follow these steps to install mods using Medstar's Mod Manager:
 
 - Move the mod folder into the `HWDEMods` folder located in the Mod Manager's directory.
 
-![](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/modmanager/1.png)
+![](https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/modmanager/1.png)
 
 {: .note }
 When closing the mod manager, ALWAYS close it using the X within the mod manager, otherwise it will remain running in the background and won't let you reopen it unless you end the process with task manager.
