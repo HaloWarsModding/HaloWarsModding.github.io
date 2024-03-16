@@ -9,6 +9,3 @@ toc: true
 ---
 
 # XML2XMB <span class="label label-yellow">Coming soon</span>
-
-Coming soon
-{: .label .label-yellow }
