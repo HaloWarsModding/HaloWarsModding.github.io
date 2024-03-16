@@ -1,5 +1,5 @@
 ---
-title: Adding Leader Slots <span class="label label-blue">Work In Progress</span>
+title: Adding Leader Slots
 description: "This guide is a runthrough on the leaderpicker.gfx file. This controls the leader selection menu and can be modified to reposition and modify the menu to look wildly different from what it normally does."
 permalink: /docs/leader-slots
 layout: default

@@ -1,5 +1,5 @@
 ---
-title: Creating Custom Models <span class="label label-red">Deprecated</span>
+title: Creating Custom Models
 description: "This guide will go into how to use the StumpyUGXSDK program to create new meshes and animations for use in Halo Wars: DE.
 Creating models is not exactly straight forward, and requires a few hurdles to jump through. Trust us though, it is well worth it."
 permalink: /guides/custom-models
@@ -10,7 +10,7 @@ toc: true
 ---
 
 # Creating Custom Models <span class="label label-red">Deprecated</span>
-{: .no_toc }
+{:.no_toc}
 
 This guide will go into how to use the StumpyUGXSDK program to create new meshes and animations for use in Halo Wars: DE.
 Creating models is not exactly straight forward, and requires a few hurdles to jump through. Trust us though, it is well worth it.

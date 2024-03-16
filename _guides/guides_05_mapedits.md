@@ -1,5 +1,5 @@
 ---
-title: Making Map Edits <span class="label label-red">Deprecated</span>
+title: Making Map Edits
 description: "To begin the process, head to the design folder that is in your scenario folder. Create a new folder with whatever name you choose. Copy all the files in the blood gulch folder and paste them into your new folder. You may use another map if you choose but for this guide we will use blood gulch."
 permalink: /guides/map-edits
 layout: default

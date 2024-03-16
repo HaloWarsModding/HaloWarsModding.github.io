@@ -1,5 +1,5 @@
 ---
-title: XML2XMB <span class="label label-yellow">Coming soon</span>
+title: XML2XMB
 description: "Coming Soon"
 permalink: /tools/xml2xmb
 layout: default

@@ -1,5 +1,5 @@
 ---
-title: Getting Started <span class="label label-green">Stable</span>
+title: Getting Started
 description: "Whether you're a new modder or need to brush up on the basics, this is the place to be. This page will focus on what you need to begin making a mod."
 permalink: /guides/getting-started
 layout: default

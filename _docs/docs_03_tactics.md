@@ -1,5 +1,5 @@
 ---
-title: Tactics <span class="label label-blue">Work In Progress</span>
+title: Tactics
 description: "Tactics files are an absolutely essential part of any unit. They enable units to attack, use abilities, gather resources, and more. "
 permalink: /docs/tactics
 layout: default

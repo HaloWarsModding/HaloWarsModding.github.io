@@ -1,5 +1,5 @@
 ---
-title: PhxGui <span class="label label-yellow">Coming soon</span>
+title: PhxGui
 description: "Coming Soon"
 permalink: /tools/phxgui
 layout: default

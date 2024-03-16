@@ -1,5 +1,5 @@
 ---
-title: Basic Tools <span class="label label-blue">Work In Progress</span>
+title: Basic Tools
 description: "This page will go through all basic tools that can be used to mod Halo Wars."
 permalink: /tools/basic
 layout: default

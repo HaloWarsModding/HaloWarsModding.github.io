@@ -1,5 +1,5 @@
 ---
-title: Installing Mods <span class="label label-green">Stable</span>
+title: Installing Mods
 description: "Learn how to install mods for Halo Wars: Definitive Edition"
 permalink: /guides/installing-mods
 layout: default
