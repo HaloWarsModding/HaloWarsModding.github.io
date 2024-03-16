@@ -30,7 +30,7 @@ If you're a beginner, we recommend reading this page from top to bottom twice be
 #### PHXTool - For Extracting Halo Wars: DE Content
 ![PHXTool](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/phxtool.png?raw=true)
 
-The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. 
+The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars resource archives (`.era` files) so that you can make use of them in new content, or edit them for existing content. 
 
 [PHXTool](https://drive.google.com/file/d/122IhrnDi3Oh1gx-tDaCuCi-oZVbIc_tp/view?usp=sharing){: .btn .btn-purple }
 
