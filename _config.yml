@@ -7,12 +7,6 @@ favicon: https://raw.githubusercontent.com/CinderellaKuru/Dev.HaloWarsModding/ma
 url: https://cinderellakuru.github.io/Dev.HaloWarsModding.github.io/
 footer_content: "Not finding what you're looking for? Make sure to join the <a href='https://discord.gg/GuvUCgqz8d'>Halo Wars Modding Discord</a> to ask questions!"
 
-markdown: kramdown
-kramdown:
-  auto_ids: true
-  toc_levels: 1..6
-  enable_coderay: false
-
 callouts:
   highlight:
     title: Highlight

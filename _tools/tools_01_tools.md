@@ -12,7 +12,7 @@ toc: true
 
 This page will go through all basic tools that can be used to mod Halo Wars. 
 
-{:toc}
+<ol>{:toc}
 
 ***
 
