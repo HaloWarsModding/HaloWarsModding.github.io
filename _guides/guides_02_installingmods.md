@@ -1,6 +1,6 @@
 ---
 title: Installing Mods
-description: Install Mods Description
+description: "Learn how to install mods for Halo Wars: Definitive Edition"
 permalink: /guides/installing-mods
 layout: default
 nav_order: 2
@@ -13,72 +13,66 @@ toc: true
 Work In Progress
 {: .label .label-blue }
 
-This guide will show you how to install mods, using Leader Overhaul Mod v1.6 as a template.
+Welcome to the world of modding for Halo Wars: Definitive Edition! This guide will walk you through the process of installing mods manually or using Medstar's Mod Manager.
 
-***
-<a name="HowToInstall"></a>
-## How to Install Mods Manually
+[Medstar's Mod Manager](https://www.moddb.com/downloads/start/226029?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fhalo-wars-de-mod-manager%2Fdownloads){: .btn .btn-purple }
+[WinRAR](https://www.win-rar.com/download.html){: .btn .btn-blue } [7-Zip](https://www.7-zip.org/download.html){: .btn .btn-green }
 
-*If you are updating from a previous version, delete the previous version before installing.
+1. [Getting Started](#getting-started)
+2. [How to Install Mods](#how-to-install-mods)
+   - [Manual Approach](#manual-approach)
+   - [Using Medstar's Mod Manager](#using-medstar-s-mod-manager)
+3. [How to Uninstall Mods](#how-to-uninstall-mods)
+   - [Manual Approach](#manual-approach-1)
+   - [Using Medstar's Mod Manager](#using-medstar-s-mod-manager-1)
 
-Downloading a mod will provide you with an archive, usually .rar or .zip. Extract it with WinRAR, 7zip, or an equivalent program.
+## How to Install Mods
 
-  -If you are using the Steam version, you may place the "LeaderOverhaulMod v1.6" folder anywhere on your PC. 
+### Manual Approach
 
-  -If you have the windows store version, then you must put it here:
+If you prefer a hands-on approach, follow these steps to manually install mods:
 
-    C:\Users\*YourUsername*\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState
+- Start by downloading the mod you want to install. Mods typically come in compressed archive formats like `.rar` or `.zip`.
+- Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the contents of the mod archive.
 
-Open the "LeaderOverhaulMod v1.6" folder, then open "ModData" and copy the address/path. 
-  
-  -If no ModData folder is present, copy the address/path of the mod folder itself instead.
+| Distribution  | Path              | 
+|:--------------|:------------------|
+| Steam         | You can place the mod folder anywhere on your PC |
+| Windows Store | C:\Users\YourUsername\AppData\Local\Packages\Microsoft.BulldogThreshold_8wekyb3d8bbwe\LocalState | 
 
-Then, go to:
+- Open the extracted mod folder and locate the `ModData` folder. Copy the address/path of this folder (or the mod folder itself if `ModData` isn't present).
+- Navigate to `C:\Users\Username\AppData\Local\Halo Wars` and create a new text file named `ModManifest.txt`. Paste the copied address/path into this file.
+- Save the `ModManifest.txt` file, and you're done! The mod is now installed and ready to use.
 
-C:\Users\*YourUsername*\AppData\Local\Halo Wars
+### Using Medstar's Mod Manager
 
-Right click, create a .txt file and name it "ModManifest".
+Follow these steps to install mods using Medstar's Mod Manager:
 
-Open ModManifest and paste in the address that was copied.
+- Start by downloading the mod you want to install. Mods compatible with Medstar's Mod Manager will have a `ModData` folder.
 
-Save ModManifest, and you're done
+- Use software like [WinRAR](https://www.win-rar.com/download.html) or [7-Zip](https://www.7-zip.org/download.html) to extract the mod archive.
 
-Example of the mod folder path:
+- Download and install Medstar's Mod Manager.
 
-C:\Program Files (x86)\Steam\steamapps\common\HaloWarsDE\Medstar's HaloWarsDE Mod Manager\HWDE Mods\LeaderOverhaulMod v1.6\ModData
+- Move the mod folder into the `HWDEMods` folder located in the Mod Manager's directory.
 
+![](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/modmanager/1.png)
 
-***
-<a name="HowToUninstall"></a>
-## How to Uninstall
+{: .note }
+When closing the mod manager, ALWAYS close it using the X within the mod manager, otherwise it will remain running in the background and won't let you reopen it unless you end the process with task manager.
 
-All you have to do is either delete the modmanifest.txt or to rename, move or delete the mod folder.
-
-
-This guide will show you how to install mods using Medstar's Mod Manager for Halo Wars: Definitive Edition, using Leader Overhaul Mod v1.6 as a template.
-
-***
-<a name="HowToInstall"></a>
-## How to Install Mods Using Medstar's Mod Manager
-
-Downloading a mod will provide you with an archive, usually .rar or .zip. Extract it with WinRAR, 7zip, or an equivalent program.
-
-  -The extracted mod folder used in this guide is titled "LeaderOverhaulMod v1.6"
-  
-If the mod page did not specify whether the mod is compatible with the mod manager, you may easily check this yourself by opening the mod folder. If you see a ModData folder, then the mod is compatible and you may continue following this guide. If not, then check out the manual installation guide instead.
-
-Download and install Medstar's Mod Manager
-
-Follow the instructions given in the description of the Mod Manager
-
-Place the "LeaderOverhaulMod v1.6" folder in the "HWDEMods" folder
-
-Example of the mod folder path:
-
-C:\Program Files (x86)\Steam\steamapps\common\HaloWarsDE\Medstar's HaloWarsDE Mod Manager\HWDE Mods\LeaderOverhaulMod v1.6\ModData
-
-***
-<a name="HowToUninstall"></a>
 ## How to Uninstall Mods
 
-All you have to do is either delete the ModManifest.txt or to rename, move or delete the mod folder. The Mod Manager allows you to choose to play vanilla at any time, so you do not need to uninstall mods to play vanilla.
+### Manual Approach
+
+To uninstall mods manually:
+
+- Delete the `ModManifest.txt` file, and the game will no longer load the mod.
+
+### Using Medstar's Mod Manager
+
+Uninstalling mods with Medstar's Mod Manager is straightforward:
+
+- Open Medstar's Mod Manager and navigate to the "My Mods" section.
+- Click on "My Mods," and the program will open your file explorer to the mod directory.
+- From here, you can easily delete any installed mods. Remember, you can also revert to the original game state by selecting "Vanilla" within the tool.

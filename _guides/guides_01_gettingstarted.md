@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Getting Started Description
+description: Whether you're a new modder or need to brush up on the basics, this is the place to be. This page will focus on what you need to begin making a mod.
 permalink: /guides/getting-started
 layout: default
 nav_order: 1
@@ -30,12 +30,15 @@ If you're a beginner, we recommend reading this page from top to bottom twice be
 #### PHXTool - For Extracting Halo Wars: DE Content
 ![PHXTool](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/phxtool.png?raw=true)
 
-The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. It can be downloaded [here](https://github.com/HaloMods/HaloWarsDocs/releases). If you encounter issues with that download, such as errors when converting files or conversion issues regarding excessively long decimals, try using [this](https://drive.google.com/file/d/122IhrnDi3Oh1gx-tDaCuCi-oZVbIc_tp/view?usp=sharing) version instead.
+The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars' resource archives (.era files) so that you can make use of them in new content, or edit them for existing content. 
+[PHXTool](https://drive.google.com/file/d/122IhrnDi3Oh1gx-tDaCuCi-oZVbIc_tp/view?usp=sharing){: .btn .btn-purple }
 
 The tool has several options. The `ERA Expand Path` field allows you to specify where the archive will be dumped to. It is recommended to set this to an "Extract" folder either:
 
-- In your game's install directory (Steam) `C:/Program Files (x86)/Steam/steamapps/common/HaloWarsDE`
-- In your documents folder (Windows Store) `C:/'USER'/Documents`
+| Distribution  | Path              | 
+|:--------------|:------------------|
+| Steam         | C:/Program Files (x86)/Steam/steamapps/common/HaloWarsDE |
+| Windows Store | C:/**Username**/Documents | 
 
 The `ERA Build Path` field allows you to specify where you want an archive to be output when it is re-built. This feature is hardly ever needed but is still sometimes useful. It is recommended to be set to your game's install directory.
 
@@ -79,32 +82,23 @@ Now that you are familiar with the tools, let's make a mod. The mod we will be c
 First things first.
 ModManifest is a `.txt` file that tells the game where to load external content from. This file can automatically be found and opened using PHXTool, or alternatively can be found in:
 
-Steam
-{: .label }
+| Distribution  | Path              | 
+|:--------------|:------------------|
+| Steam         | C:/Users/**Username**/AppData/Local/Halo Wars |
+| Windows Store | C:/Users/**Username**/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState | 
+| Steam Deck | /home/deck/.local/share/Steam/steamapps/compatdata/459220/pfx/drive_c/users/steamuser/AppData/Local/Halo Wars | 
 
-`C:/Users/'USER'/AppData/Local/Halo Wars`
 
-Windows Store
-{: .label }
-
-`C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState`
-
-Steam Deck
-{: .label }
-
-`/home/deck/.local/share/Steam/steamapps/compatdata/459220/pfx/drive_c/users/steamuser/AppData/Local/Halo Wars`
-
-Inside of your `ModManifest.txt` file, you can specify paths for the game to load mods from. Each path must be on its own line. To disable a path without erasing it, simply put a semi-colon `(;)` in front of it. PHXTool has a GUI to automate this process, if you prefer it. It can be accessed by pressing the `Edit ModManifest.txt for (Version)` button. This button will also create the file if you do not have one already.
+Inside of your `ModManifest.txt` file, you can specify paths for the game to load mods from. Each path must be on its own line. To disable a path without erasing it, simply put a semi-colon `(;)` in front of it. PHXTool has a GUI to automate this process, if you prefer it. It can be accessed by pressing the `Edit ModManifest.txt for (Distribution)` button. This button will also create the file if you do not have one already.
 
 {: .note }
-The Windows Store version of the game can ONLY load mods from folders in C:/Users/'USER'/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState.
-The Steam Deck version of the game can ONLY load mods if the game is installed on the main drive and not on an SD Card.
+The Windows Store version of the game can ONLY load mods from folders in C:/Users/**Username**/AppData/Local/Packages/Microsoft.BulldogThreshold_8wekyb3d8bbwe/LocalState.
+> {: .note }
+> The Steam Deck version of the game can ONLY load mods if the game is installed  on the main drive and not on an SD Card.
 
 For the Steam version, however, mod folders can be placed wherever you want, even on another drive if you have one.
 
 Go ahead and create a folder within the confines of your game version, and put the path of this folder in the ModManifest.txt.
-
-Now that your mod folder is all set up, now would be a good time to learn how to make one.
 
 ## Getting Into It
 
