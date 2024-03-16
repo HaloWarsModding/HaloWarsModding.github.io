@@ -10,7 +10,6 @@ toc: true
 
 # Installing Mods <span class="label label-green">Stable</span>
 
-
 Welcome to the world of modding for Halo Wars: Definitive Edition! This guide will walk you through the process of installing mods manually or using Medstar's Mod Manager.
 
 [Medstar's Mod Manager](https://www.moddb.com/downloads/start/226029?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fhalo-wars-de-mod-manager%2Fdownloads){: .btn .btn-purple }

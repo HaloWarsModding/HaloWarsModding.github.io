@@ -1,6 +1,6 @@
 ---
 title: Squads
-description: Squads Description
+description: "The Squad.xml file stores data and attributes for units that is not present in Objects.xml like how much the unit costs, training time and how many units are in a set squad."
 permalink: /docs/squads
 layout: default
 nav_order: 2
@@ -8,25 +8,15 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Squads
-
-Work In Progress
-{: .label .label-blue }
+# Squads <span class="label label-blue">Work In Progress</span>
 
 This page will go through the basics of creating, editing and understanding the squads.xml file.
 
-
-
 What is the Squads.xml file?
-
 
 The Squad.xml file stores data and attributes for units that is not present in Objects.xml like how much the unit costs, training time and how many units are in a set squad.
 
 Every infantry, vehicle and air unit in the game has entries in Squads.xml
-
-
-
-
 
 The Components of a unit in a Squads.xml file.
 

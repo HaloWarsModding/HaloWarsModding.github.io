@@ -1,6 +1,6 @@
 ---
 title: Tactics
-description: Tactics Description
+description: "Tactics files are an absolutely essential part of any unit. They enable units to attack, use abilities, gather resources, and more. "
 permalink: /docs/tactics
 layout: default
 nav_order: 3
@@ -8,10 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Tactics
-
-Work In Progress
-{: .label .label-blue }
+# Tactics <span class="label label-blue">Work In Progress</span>
 
 This page will go through the basics of creating and editting tactics files. 
 

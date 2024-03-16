@@ -1,6 +1,6 @@
 ---
 title: Adding Leader Slots
-description: Leader Slots Description
+description: "This guide is a runthrough on the leaderpicker.gfx file. This controls the leader selection menu and can be modified to reposition and modify the menu to look wildly different from what it normally does."
 permalink: /docs/leader-slots
 layout: default
 nav_order: 5
@@ -8,12 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Adding Leader Slots
-
-Work In Progress
-{: .label .label-blue }
-
-## **EDITING THE LEADERPICKER.GFX FILE + Tips .gfx file editing in general**
+# Adding Leader Slots <span class="label label-blue">Work In Progress</span>
 
 This guide is a runthrough on the `leaderpicker.gfx` file. This controls the leader selection menu and can be modified to reposition and modify the menu to look wildly different from what it normally does.
 

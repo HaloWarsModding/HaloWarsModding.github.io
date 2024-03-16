@@ -9,7 +9,4 @@ toc: true
 ---
 
 
-# Objects
-
-Coming soon
-{: .label .label-yellow }
+# Objects <span class="label label-yellow">Coming Soon</span>

@@ -1,6 +1,6 @@
 ---
 title: PhxGui
-description: PhxGui Description
+description: "Coming Soon"
 permalink: /tools/phxgui
 layout: default
 nav_order: 2
@@ -8,7 +8,4 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# PHXGUI
- 
-Coming soon
-{: .label .label-yellow }
+# PHXGUI <span class="label label-yellow">Coming soon</span>
