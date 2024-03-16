@@ -1,5 +1,5 @@
 ---
-title: XML2XMB
+title: XML2XMB <span class="label label-yellow">Coming soon</span>
 description: "Coming Soon"
 permalink: /tools/xml2xmb
 layout: default
@@ -8,7 +8,8 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# XML2XMB <span class="label label-yellow">Coming soon</span> {:.no_toc}
+# XML2XMB <span class="label label-yellow">Coming soon</span>
+{: .no_toc }
 
 1. TOC
 {:toc}

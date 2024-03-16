@@ -1,5 +1,5 @@
 ---
-title: PhxGui
+title: PhxGui <span class="label label-yellow">Coming soon</span>
 description: "Coming Soon"
 permalink: /tools/phxgui
 layout: default
@@ -8,7 +8,8 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# PHXGUI <span class="label label-yellow">Coming soon</span> {:.no_toc}
+# PHXGUI <span class="label label-yellow">Coming soon</span>
+{: .no_toc }
 
 1. TOC
 {:toc}

@@ -1,5 +1,5 @@
 ---
-title: Tactics
+title: Tactics <span class="label label-blue">Work In Progress</span>
 description: "Tactics files are an absolutely essential part of any unit. They enable units to attack, use abilities, gather resources, and more. "
 permalink: /docs/tactics
 layout: default
@@ -8,7 +8,8 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Tactics <span class="label label-blue">Work In Progress</span> {:.no_toc}
+# Tactics <span class="label label-blue">Work In Progress</span>
+{: .no_toc }
 
 This page will go through the basics of creating and editting tactics files. 
 

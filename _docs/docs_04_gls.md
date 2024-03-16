@@ -1,5 +1,5 @@
 ---
-title: GLS (Lighting) File
+title: GLS (Lighting) File <span class="label label-blue">Work In Progress</span>
 description: "The GLS files handles map lighting on a per-map basis, and they can be found in each dedicated map folder contained within the (ModName)\scenario directory. It DOES NOT however, control the Fog of War, as that is handled globally in a different file."
 permalink: /docs/gls
 layout: default
@@ -8,7 +8,8 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# GLS <span class="label label-blue">Work In Progress</span> {:.no_toc}
+# GLS <span class="label label-blue">Work In Progress</span>
+{: .no_toc }
 
 The GLS file(s) handles map lighting on a per-map basis, and they can be found in each dedicated map folder contained within the `(ModName)\scenario` directory. It DOES NOT however, control the Fog of War, as that is handled globally in a different file.
 

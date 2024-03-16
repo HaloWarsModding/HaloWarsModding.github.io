@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting Started <span class="label label-green">Stable</span>
 description: "Whether you're a new modder or need to brush up on the basics, this is the place to be. This page will focus on what you need to begin making a mod."
 permalink: /guides/getting-started
 layout: default
@@ -8,7 +8,8 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Getting Started <span class="label label-green">Stable</span> {:.no_toc}
+# Getting Started <span class="label label-green">Stable</span>
+{: .no_toc }
 
 Whether you're a new modder or need to brush up on the basics, this is the place to be. This page will focus on what you need to begin making a mod.
 

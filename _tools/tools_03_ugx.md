@@ -1,5 +1,5 @@
 ---
-title: The Blender UGX Pipeline
+title: The Blender UGX Pipeline <span class="label label-blue">Work In Progress</span>
 description: "This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on new or existing rigs."
 permalink: /tools/ugx
 layout: default
@@ -9,6 +9,7 @@ toc: true
 ---
 
 # Blender UGX Pipeline <span class="label label-blue">Work In Progress</span>
+{: .no_toc }
 
 1. TOC
 {:toc}

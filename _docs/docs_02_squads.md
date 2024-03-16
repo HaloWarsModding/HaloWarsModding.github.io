@@ -1,5 +1,5 @@
 ---
-title: Squads
+title: Squads <span class="label label-blue">Work In Progress</span>
 description: "The Squad.xml file stores data and attributes for units that is not present in Objects.xml like how much the unit costs, training time and how many units are in a set squad."
 permalink: /docs/squads
 layout: default
