@@ -1,5 +1,5 @@
 ---
-title: Objects
+title: Objects <span class="label label-yellow">Coming Soon</span>
 description: Objects Description
 permalink: /docs/objects
 layout: default
@@ -9,7 +9,8 @@ toc: true
 ---
 
 
-# Objects {:.no_toc} <span class="label label-yellow">Coming Soon</span>
+# Objects <span class="label label-yellow">Coming Soon</span>
+{: .no_toc }
 
 1. TOC
 {:toc}
