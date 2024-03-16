@@ -8,9 +8,12 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Adding Leader Slots <span class="label label-blue">Work In Progress</span>
+# Adding Leader Slots <span class="label label-blue">Work In Progress</span> {:.no_toc}
 
 This guide is a runthrough on the `leaderpicker.gfx` file. This controls the leader selection menu and can be modified to reposition and modify the menu to look wildly different from what it normally does.
+
+1. TOC
+{:toc}
 
 **Quick Tip:** You can edit most `.gfx` files while *Halo Wars Definitive Edition* is open, and see those changes without reloading the game entirely. To do this, all you need to do is refresh the piece of UI that you are currently editing.  To do this, simply exit the leader selection menu (if it is already opened), and then go back into it.
 

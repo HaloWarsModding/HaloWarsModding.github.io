@@ -8,20 +8,15 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Installing Mods <span class="label label-green">Stable</span>
+# Installing Mods <span class="label label-green">Stable</span> {:.no_toc}
 
 Welcome to the world of modding for Halo Wars: Definitive Edition! This guide will walk you through the process of installing mods manually or using Medstar's Mod Manager.
 
 [Medstar's Mod Manager](https://www.moddb.com/downloads/start/226029?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fhalo-wars-de-mod-manager%2Fdownloads){: .btn .btn-purple }
 [WinRAR](https://www.win-rar.com/download.html){: .btn .btn-blue } [7-Zip](https://www.7-zip.org/download.html){: .btn .btn-green }
 
-1. [Getting Started](#getting-started)
-2. [How to Install Mods](#how-to-install-mods)
-   - [Manual Approach](#manual-approach)
-   - [Using Medstar's Mod Manager](#using-medstar-s-mod-manager)
-3. [How to Uninstall Mods](#how-to-uninstall-mods)
-   - [Manual Approach](#manual-approach-1)
-   - [Using Medstar's Mod Manager](#using-medstar-s-mod-manager-1)
+1. TOC
+{:toc}
 
 ## How to Install Mods
 

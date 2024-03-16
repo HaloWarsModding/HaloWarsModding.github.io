@@ -8,13 +8,12 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Tactics <span class="label label-blue">Work In Progress</span>
+# Tactics <span class="label label-blue">Work In Progress</span> {:.no_toc}
 
 This page will go through the basics of creating and editting tactics files. 
 
-Click these links to move to a specific part of the tutorial:
-
-[What are Tactics Files?](#WhatareTactics) <br>[The Components of a Tactics File](#ComponentsofTactics)
+1. TOC
+{:toc}
 
 ***
 

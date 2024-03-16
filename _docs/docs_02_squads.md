@@ -8,9 +8,12 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Squads <span class="label label-blue">Work In Progress</span>
+# Squads <span class="label label-blue">Work In Progress</span> {:.no_toc}
 
 This page will go through the basics of creating, editing and understanding the squads.xml file.
+
+1. TOC
+{:toc}
 
 What is the Squads.xml file?
 

@@ -8,21 +8,16 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Getting Started <span class="label label-green">Stable</span>
+# Getting Started <span class="label label-green">Stable</span> {:.no_toc}
 
 Whether you're a new modder or need to brush up on the basics, this is the place to be. This page will focus on what you need to begin making a mod.
 
 If you're a beginner, we recommend reading this page from top to bottom twice before moving on to anything else. However, if you're here for something specific, you can jump to the desired section by clicking on one of the following..
 
-- [What's Needed?](#whats-needed)
-  - [PHXTool - For Extracting Halo Wars: DE Content](#phxtool---for-extracting-halo-wars-de-content)
-  - [A Decent Text Editor](#a-decent-text-editor)
-  - [A Little Bit of Patience](#a-little-bit-of-patience)
-- [Creating Your First Mod](#creating-your-first-mod)
-  - [Setting Up ModManifest](#setting-up-modmanifest)
-  - [Getting Into It](#getting-into-it)
+1. TOC
+{:toc}
 
-# What's Needed?
+## What's Needed?
 
 #### PHXTool - For Extracting Halo Wars: DE Content
 ![PHXTool](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/phxtool.png?raw=true)
@@ -51,7 +46,7 @@ To rebuild an `.era` simply drag the `.eradef` into the tool, just as you would 
  You will also come across files with an `.xmb` extension once you unpack an archive. These files are simply compressed XML. To edit them, simply drag them into the tool, just like an `.era` and it will output an uncompressed `.xml` file. This file will appear in the same directory as the source `.xmb` it is not affected by the `ERA Expand Path`.
 
 
-## A Decent Text Editor
+### A Decent Text Editor
 ![Text Editors](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/texteditors.png?raw=true)
 
 Almost all of Halo Wars data files are in `.xml`. So with that in mind, it's a good idea to install and use a text editor with syntax highlighting.
@@ -61,7 +56,7 @@ Almost all of Halo Wars data files are in `.xml`. So with that in mind, it's a g
 Notepad++ and Visual Studio Code are completely free, and Sublime Text 3 has an indefinite trial period. All three are excellent programs to edit `.xml` files. If you have another program that you prefer, you can use that, of course. They are just text files after all.
 
 
-## A Little Bit of Patience
+### A Little Bit of Patience
 
 As with all things, sometimes you may encounter something that is not working as expected. If this is the case, don't give up! Just make sure to double-check everything. Some things that can cause unwanted results are:
 
@@ -71,11 +66,11 @@ As with all things, sometimes you may encounter something that is not working as
 
 When following a guide here, if you're absolutely sure you did it correctly and it still will not work, there is always the [Halo Wars Modding Discord](https://discord.gg/t52GdQX) where someone would be happy to assist you.
 
-# Creating Your First Mod
+## Creating Your First Mod
 
 Now that you are familiar with the tools, let's make a mod. The mod we will be creating here is simply increasing the population count (the number of units you can have in your army) and changing the unit that spawns at your base when you start a game (the default is the warthog, ghost, or brute chopper).
 
-## Setting Up ModManifest
+### Setting Up ModManifest
 
 First things first.
 ModManifest is a `.txt` file that tells the game where to load external content from. This file can automatically be found and opened using PHXTool, or alternatively can be found in:

@@ -8,15 +8,12 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Importing Skinned Meshes  <span class="label label-red">Deprecated</span>
+# Importing Skinned Meshes  <span class="label label-red">Deprecated</span> {:.no_toc}
 
 This guide will explain how to import skinned meshes for use in Halo Wars, specifically ones to use with base-game animations. If you want to use your own animations, refer to the "Creating New Meshes" guide.
 
-Click these links to move to a specific part of the tutorial:
-
-[Requirements](#Requirements)<br>
-[Importing the Models](#ModelImport)<br>
-[Editting the Models](#EdittingtheModels)<br>
+1. TOC
+{:toc}
 
 ***
 

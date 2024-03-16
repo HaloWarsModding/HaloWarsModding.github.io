@@ -8,4 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# XML2XMB <span class="label label-yellow">Coming soon</span>
+# XML2XMB <span class="label label-yellow">Coming soon</span> {:.no_toc}
+
+1. TOC
+{:toc}

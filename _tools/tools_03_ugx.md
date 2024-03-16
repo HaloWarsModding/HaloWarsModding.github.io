@@ -10,6 +10,9 @@ toc: true
 
 # Blender UGX Pipeline <span class="label label-blue">Work In Progress</span>
 
+1. TOC
+{:toc}
+
 This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on new or existing rigs.
 
 ***

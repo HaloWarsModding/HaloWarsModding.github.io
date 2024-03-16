@@ -8,7 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Basic Tools <span class="label label-blue">Work In Progress</span>
+# Basic Tools <span class="label label-blue">Work In Progress</span> {:.no_toc}
 
 This page will go through all basic tools that can be used to mod Halo Wars. 
 

@@ -8,4 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# PHXGUI <span class="label label-yellow">Coming soon</span>
+# PHXGUI <span class="label label-yellow">Coming soon</span> {:.no_toc}
+
+1. TOC
+{:toc}

@@ -8,7 +8,10 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Making Map Edits <span class="label label-red">Deprecated</span>
+# Making Map Edits <span class="label label-red">Deprecated</span> {:.no_toc}
+
+1. TOC
+{:toc}
 
 This guide assumes you know how to extract game files and have a general understanding of where files are located. I use notepad++ but you may use another text editing tool. To create a new map, you need the map you want extracted. I will be using bloodgulch.era.
 You will also need to convert the scenario file from xmb to just scn. To do this, you have to drag and drop the scenario file into the PhxGui tool. It will auto convert the file. The last files you will need are scenariodescriptions.xml.xmb and stringtable-en.xml.xmb. You may use another stringtable file that contains your language you use for the game. For those files, you will also need to drag and drop it in the tool to change it to a XML file. 
