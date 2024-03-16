@@ -8,10 +8,8 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Installing Mods
+# Installing Mods <span class="label label-green">Stable</span>
 
-Stable
-{: .label .label-green }
 
 Welcome to the world of modding for Halo Wars: Definitive Edition! This guide will walk you through the process of installing mods manually or using Medstar's Mod Manager.
 
