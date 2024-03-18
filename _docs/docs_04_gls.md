@@ -1,6 +1,6 @@
 ---
 title: GLS (Lighting) File
-description: GLS Description
+description: "The GLS files handles map lighting on a per-map basis, and they can be found in each dedicated map folder contained within the (ModName)\scenario directory. It DOES NOT however, control the Fog of War, as that is handled globally in a different file."
 permalink: /docs/gls
 layout: default
 nav_order: 4
@@ -8,12 +8,13 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# GLS
-
-Work In Progress
-{: .label .label-blue }
+# GLS <span class="label label-blue">Work In Progress</span>
+{: .no_toc }
 
 The GLS file(s) handles map lighting on a per-map basis, and they can be found in each dedicated map folder contained within the `(ModName)\scenario` directory. It DOES NOT however, control the Fog of War, as that is handled globally in a different file.
+
+1. TOC
+{:toc}
 
 
 Every map has its own `.GLS` located in its dedicated folder. For instance, the .GLS for Chasms would be located at `(ModName)\scenario\skirmish\design\chasms`

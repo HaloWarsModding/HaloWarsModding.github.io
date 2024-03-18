@@ -1,6 +1,6 @@
 ---
 title: Basic Tools
-description: Basic Tools Description
+description: "This page will go through all basic tools that can be used to mod Halo Wars."
 permalink: /tools/basic
 layout: default
 nav_order: 1
@@ -8,12 +8,13 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Basic Tools
-
-Work In Progress
-{: .label .label-blue }
+# Basic Tools <span class="label label-blue">Work In Progress</span>
+{: .no_toc }
 
 This page will go through all basic tools that can be used to mod Halo Wars. 
+
+1. TOC
+{:toc}
 
 ***
 

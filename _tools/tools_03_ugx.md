@@ -1,6 +1,6 @@
 ---
 title: The Blender UGX Pipeline
-description: UGX Pipeline Description
+description: "This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on new or existing rigs."
 permalink: /tools/ugx
 layout: default
 nav_order: 3
@@ -8,10 +8,11 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Blender UGX Pipeline
+# Blender UGX Pipeline <span class="label label-blue">Work In Progress</span>
+{: .no_toc }
 
-Work In Progress
-{: .label .label-blue }
+1. TOC
+{:toc}
 
 This guide will go into how to use the StumpyUGXPipeline to create new meshes and animations on new or existing rigs.
 

@@ -9,7 +9,8 @@ toc: true
 ---
 
 
-# Objects
+# Objects <span class="label label-yellow">Coming Soon</span>
+{:.no_toc}
 
-Coming soon
-{: .label .label-yellow }
+1. TOC
+{:toc}
