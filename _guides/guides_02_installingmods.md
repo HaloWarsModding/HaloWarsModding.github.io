@@ -10,8 +10,8 @@ toc: true
 
 # Installing Mods
 
-Work In Progress
-{: .label .label-blue }
+Stable
+{: .label .label-green }
 
 Welcome to the world of modding for Halo Wars: Definitive Edition! This guide will walk you through the process of installing mods manually or using Medstar's Mod Manager.
 
