@@ -73,9 +73,13 @@ From here, we'll need to change the files being referenced in the `<Visual>` and
 
 Now we're done in `objects.xml`, we'll need to follow the file path that the visual links to in order to get to the `.vis` file.
 
-## Modifying the animations in the `<Visual>`
+## Modifying the appearance in the `<Visual>`
+
+In the visual, we'll be changing the weapon they hold. Thankfully, this is made easier by the marine's use of what we call *Optional Attachments*. In this case, all you would need to do is use the search function, and have it replace every instance of `<meshEnable>optionalAssaultRifle</meshEnable>` with `<meshEnable>optionalRocketLauncher</meshEnable>`. While this method won't work for most other units, we'll be using it here to keep this guide short. With that, we're already done in the visual file. Now we're going over to the tactics, and changing it so that they only use the rocket launcher.
 
 ## Changing up the unit's attacks in `<Tactics>`
+
+Theres a lot of tweaking that could be done in tactics, though to keep things simple we will change very little. First, we will swap out the assault rifle projectile by using the search function to replace `<Projectile>fx_proj_rifle_01</Projectile>` with `<Projectile>fx_proj_rocket_01</Projectile>`. Then, scroll down to the actions section and look for `<Anim>AssaultRifleAttack</Anim>` and replace it with `<Anim>RocketAttack</Anim>`. With that
 
 ## Adding your marine to the marine squad in `Squads.xml`
 
