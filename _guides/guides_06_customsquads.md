@@ -8,7 +8,10 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# How to make your first custom squads
+# How to make your first custom squads <span class="label label-blue">Work in Progress</span>
 
-Work In Progress
-{: .label .label-blue }
+In this guide we'll be making various custom squads, and go over some of the intricacies involved with the squad system. To begin, we'll be looking for the `squads.xml` file, which is found in the data folder.
+
+(image)
+
+From there, find and pick out the marine squad. We're first going to add a few extra memebers
