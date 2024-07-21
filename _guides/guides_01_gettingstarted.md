@@ -25,7 +25,7 @@ If you're a beginner, we recommend reading this page from top to bottom twice be
 
 The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars resource archives (`.era` files) so that you can make use of them in new content, or edit them for existing content. 
 
-[PHXTool](https://drive.google.com/file/d/122IhrnDi3Oh1gx-tDaCuCi-oZVbIc_tp/view?usp=sharing){: .btn .btn-purple }
+[PHXTool](https://github.com/HaloMods/HaloWarsDocs/releases/download/v1.0.8/PhxTools_20231125.7z){: .btn .btn-purple }
 
 The tool has several options. The `ERA Expand Path` field allows you to specify where the archive will be dumped to. It is recommended to set this to an "Extract" folder either:
 
