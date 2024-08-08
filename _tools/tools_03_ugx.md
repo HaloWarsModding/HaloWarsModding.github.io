@@ -8,7 +8,7 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# Blender UGX Pipeline <span class="label label-blue">Work In Progress</span>
+# Blender UGX Pipeline <span class="label label-red">Deprecated</span>
 {: .no_toc }
 
 1. TOC

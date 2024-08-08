@@ -33,7 +33,7 @@ PhxTool.exe is a CLI style app that resembles the original "KSoft.Tool" app. Phx
 
 ***
 
-<a name="StumpyUGXTools"></a>
+<a name="StumpyUGXTools"></a> <span class="label label-red">Deprecated</span>
 # StumpyUGXTools
 <img width="422" height="279" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/stumpyugxtool_overview.png?raw=true">
 
