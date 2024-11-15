@@ -53,6 +53,8 @@ Before we end things off, lets look into other things that can be changed. The v
 <p style="display: flex; justify-content: center; gap: 10px;">
   <img src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/squadguide9.png?raw=true" width="384" />
   <img src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/squadguide10.png?raw=true" width="384" />
+</p>
+<p style="display: flex; justify-content: center; gap: 10px;">
   <img src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/squadguide11.png?raw=true" width="384" />
   <img src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/squadguide12.png?raw=true" width="384" />
 </p>
