@@ -9,7 +9,7 @@ toc: true
 ---
 
 # Custom Objects <span class="label label-blue">Work in Progress</span>
-
+{: .no_toc }
 
 Objects.xml is a massive file containing every single object in the game, such as units, structures, and projectiles. By following this guide, you’ll learn the basics as how to create the foundations for all sorts of custom objects, as well as learn about how to fix some of the common issues that may arise when creating these custom objects.
 If you'd like to jump to a particular section, then you can use the table of contents found below.
