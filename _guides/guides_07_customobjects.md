@@ -8,22 +8,13 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# The essentials to creating custom objects
+# Custom Objects <span class="label label-blue">Work in Progress</span>
 
-Work In Progress
-{: .label .label-blue }
 
 Objects.xml is a massive file containing every single object in the game, such as units, structures, and projectiles. By following this guide, you’ll learn the basics as how to create the foundations for all sorts of custom objects, as well as learn about how to fix some of the common issues that may arise when creating these custom objects.
 If you'd like to jump to a particular section, then you can use the table of contents found below.
 
-- [Shared Attributes](#shared-attributes)
-- [Custom Units](#custom-units)
-- [Custom Structures](#custom-structures)
-- [Custom Hooks](#custom-hooks)
-- [Custom Scenery Objects](#custom-scenery-objects)
-- [Custom Projectiles](#custom-projectiles)
-  - [Custom Particles](#custom-particles)
-- [Troubleshooting Common Issues](troubleshooting-common-issues)
+{:toc}
 
 # Shared Attributes
 There are several tags in the game that are important and also used by various kinds of objects. For a more in depth explanation for what the many various other tags within objects.xml do, check the [Objects.xml documentation](_docs/objects) for more info, as this guide will only go over the most important things among these tags.

@@ -8,8 +8,8 @@ image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.
 toc: true
 ---
 
-# The basics of custom squads
-<span class="label label-blue">Work in Progress</span>
+# Custom Squads <span class="label label-blue">Work in Progress</span>
+
 
 In this guide we'll be making various custom squads, and go over some of the intricacies involved with the squad system. To begin, we'll be looking for the `squads.xml` file, which is found in the data folder.
 
