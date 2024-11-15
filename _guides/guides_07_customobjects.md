@@ -18,7 +18,7 @@ If you'd like to jump to a particular section, then you can use the table of con
 {:toc}
 
 # Shared Attributes
-There are several tags in the game that are important and also used by various kinds of objects. For a more in depth explanation for what the many various other tags within objects.xml do, check the [Objects.xml documentation](_docs/objects) for more info, as this guide will only go over the most important things among these tags.
+There are several tags in the game that are important and also used by various kinds of objects. For a more in depth explanation for what the many various other tags within objects.xml do, check the [Objects documentation](docs/objects) for more info, as this guide will only go over the most important things among these tags.
 
 Here is a brief overview of the various most commonly shared tags:
 
