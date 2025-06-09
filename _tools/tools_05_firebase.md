@@ -4,7 +4,7 @@ description: "A mod manager for Halo Wars: Definitive Edition, offering fast swi
 layout: default
 nav_order: 5
 permalink: /tools/firebase
-image: https://raw.githubusercontent.com/HaloWarsModding/Firebase/main/docs/firebase_header.png
+image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---
 
@@ -12,7 +12,7 @@ toc: true
 {: .no_toc }
 
 {: .new }
-Firebase is the renamed version of **Medstar Mod Manager**.  
+Firebase is the newer version of **Medstar Mod Manager**.  
 It retains all core functionality with UI, validation, and performance improvements.  
 
 [Download Firebase](https://github.com/HaloWarsModding/Firebase/releases/download/2024.5.15.2/AutoUpdatePackage.zip){: .btn .btn-purple }
@@ -24,12 +24,7 @@ It retains all core functionality with UI, validation, and performance improveme
 
 ## What is Firebase?
 
-Firebase is a dedicated mod manager** for **Halo Wars: Definitive Edition**, providing a simplified workflow for installing and switching between mods.  
-
-Firebase supports:
-- `HWDEMods` mod directory
-- `ModManifest.txt` usage
-- Steam / Windows Store / Steam Deck environments
+Firebase is a dedicated mod manager for **Halo Wars: Definitive Edition**, providing a simplified workflow for installing and switching between mods.  
 
 ---
 
@@ -38,10 +33,10 @@ Firebase supports:
 ![](https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/modmanager/1.png)
 
 1. Extract your mod into the `HWDEMods` folder inside the Firebase directory.
-2. Run **Firebase.exe**.
+2. Run **Firebase**.
 3. Select your mod from the **My Mods** list.
-4. Click **Enable Mod** or **Set Active** (depending on version).
-5. Launch the game manually through Steam or the Windows Store.
+4. Click **Enable Mod** or **Set Active**.
+5. Launch the game manually through Steam or the Windows Store / Click on the **Play** button.
 
 {: .note }
 Always close Firebase using the `[X]` button in the app UI.  
