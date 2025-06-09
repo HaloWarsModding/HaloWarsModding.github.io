@@ -32,24 +32,24 @@ callouts:
 
 collections:
   guides:
-    permalink: "/guides/:title/"
     output: true
+    permalink: "/guides/:title/"
     nav_expand: true
   tools:
+    output: true
     permalink: "/tools/:title/"
-    output: true 
     nav_expand: true
   docs:
-    permalink: "/docs/:title/"
     output: true
+    permalink: "/docs/:title/"
     nav_expand: true
 
 just_the_docs:
-  show_last_modified_at: true 
+  show_last_modified_at: true
   collections:
     guides:
       name: Guides
-      nav_fold: true 
+      nav_fold: true
     tools:
       name: Tools
       nav_fold: true

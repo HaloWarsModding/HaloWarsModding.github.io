@@ -10,7 +10,7 @@ toc: true
 # Welcome to the Halo Wars Modding wiki!
 
 {: .important }
-THIS WIKI IS STILL A WORK IN PROGRESS. IF SOMETHING YOU WANT TO MODIFY IS NOT YET DOCUMENTED, THEN IT IS HIGHLY RECOMMENDED TO JOIN THE MODDING DISCORD TO ASK FOR ASSISTANCE
+This wiki is a work in progress. If the content you're looking for isn't documented yet, we recommend joining the [Halo Wars Modding Discord](https://discord.gg/GuvUCgqz8d) for help and guidance.
 
 This is the home for all documentation on modding Halo Wars: Definitive Edition.
 These docs will cover everything from the basics like modifying a unit, to rigging and importing new models and beyond.
@@ -39,5 +39,6 @@ Some things that can only be modified to a limited degree are:
 
 ***
 
-### New Modders
-If you are a first time modder, or are still getting the hang of things, we recommend the [Getting Started Page](guides/getting-started). Here you will find everything you need to begin making mods.
+### New to Modding?
+
+If you're just starting out or still learning the ropes, we recommend checking out the [Getting Started guide](/guides/getting-started). It covers the essential tools and steps to help you create your first Halo Wars mod.
