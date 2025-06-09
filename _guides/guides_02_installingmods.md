@@ -19,6 +19,10 @@ Welcome to the world of modding for Halo Wars: Definitive Edition! This guide wi
 
 [Firebase](https://github.com/HaloWarsModding/Firebase/releases/download/2024.5.15.2/AutoUpdatePackage.zip){: .btn .btn-purple } [WinRAR](https://www.win-rar.com/download.html){: .btn .btn-blue } [7-Zip](https://www.7-zip.org/download.html){: .btn .btn-green }
 
+{: .note }
+Looking for more details on how Firebase works? See the full [Firebase Tool Page](/tools/firebase) for features and patch notes.
+
+
 1. TOC
 {:toc}
 
