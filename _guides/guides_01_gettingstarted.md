@@ -22,32 +22,27 @@ If you're a beginner, we recommend reading this page from top to bottom twice be
 
 ## What's Needed?
 
-#### PHXTool - For Extracting Halo Wars: DE Content
+### PhxTool / PhxGUI – For Extracting Halo Wars: DE Content
 ![PHXTool](https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/phxtool.png?raw=true)
 
-The absolute backbone of Halo Wars modding is the PHXTool by kornman00. This tool lets you unpack and re-pack Halo Wars resource archives (`.era` files) so that you can make use of them in new content, or edit them for existing content. 
+The backbone of Halo Wars modding is [PhxGUI](../tools/phxgui), a drag-and-drop tool that lets you unpack, convert, and rebuild Halo Wars `.era` archives, which store nearly all of the game’s resources like units, art, XML data, sounds, and UI.
 
-[PHXTool](https://github.com/HaloMods/HaloWarsDocs/releases/download/v1.0.8/PhxTools_20231125.7z){: .btn .btn-purple }
+**[Download PhxGUI](https://github.com/HaloMods/HaloWarsDocs/releases/download/v1.0.8/PhxTools_20231125.7z){: .btn .btn-purple }**
 
-The tool has several options. The `ERA Expand Path` field allows you to specify where the archive will be dumped to. It is recommended to set this to an "Extract" folder either:
+You’ll use this tool to:
+- **Extract `.era` files** just drag them into the tool to unpack their contents.
+- **Convert `.xmb` to `.xml`** drag individual files or entire folders into the tool.
+- **Rebuild archives** drag the `.eradef` manifest file back into the GUI.
+- **Patch your game executable** allows loading modded `.era` files.
 
-| Distribution  | Path              | 
-|:--------------|:------------------|
-| Steam         | C:/Program Files (x86)/Steam/steamapps/common/HaloWarsDE |
-| Windows Store | C:/**Username**/Documents | 
+{: .tip }
+Each `.era` file holds different types of content, and every map has its own `.era`. You can extract only the map you want to modify, or dump them all together for a full modding base.
 
-The `ERA Build Path` field allows you to specify where you want an archive to be output when it is re-built. This feature is hardly ever needed but is still sometimes useful. It is recommended to be set to your game's install directory.
+{: .warning }
+If your extracted files show up as `example.xml.xmb`, it means they’re still compressed. You need to drag the **whole folder** into PhxGUI to properly extract them.
 
-{: .note }
-Always make a backup of all your files before modifying anything. Rebuilding an archive into your install directory will overwrite the original file unless `Don't overwrite existing files` is checked.
+For advanced options, error handling tips, and in-depth info, check out the [full PhxGUI documentation](/tools/phxgui).
 
-To unpack an `.era` file, simply drag it into the tool's GUI. All contents will be extracted to the path set in `ERA Expand Path`.
-
-After extraction, you’ll find an accompanying `.eradef` file. This acts as a manifest for everything in the archive and can be edited to include additional files. All listed paths are relative to the `.eradef` itself.
-
-To rebuild the archive, drag the `.eradef` into the tool the same way you unpacked the original. The rebuilt output will appear in the designated `ERA Build Output` path.
-
-You’ll also encounter `.xmb` files, which are just compressed XML. Drag these into the tool to get an uncompressed `.xml` version in the same directory, this operation doesn’t follow the `ERA Expand Path` setting.
 
 ---
 
