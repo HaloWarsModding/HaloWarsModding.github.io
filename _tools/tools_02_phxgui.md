@@ -91,7 +91,7 @@ Patches the game executable to allow custom `.era` loading. Creates a backup wit
 |--------|-------------|
 | `Validate Game Data` | Checks core XMLs for load errors and dependency issues. |
 | `Always build with XML` | Forces build to use `.xml` if found instead of `.xmb`. Useful for era-modding. |
-| `.ecf/.ecfdef` support | Can unpack and rebuild effect chunk files (used in materials and shaders). |
+| `.ecf/.ecfdef` support | Can unpack and rebuild ensemble chunk files (used in many binary assets) (advanced feature). |
 
 ---
 
