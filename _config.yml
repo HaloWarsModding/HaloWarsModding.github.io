@@ -63,3 +63,13 @@ defaults:
 
 just_the_docs:
   show_last_modified_at: true
+  collections:
+    docs:
+      name: Docs
+      nav_order: 2
+    guides:
+      name: Guides
+      nav_order: 3
+    tools:
+      name: Tools
+      nav_order: 4
