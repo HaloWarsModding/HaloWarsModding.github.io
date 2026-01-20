@@ -1,5 +1,11 @@
 {% assign path = page.relative_path | default: "index.md" %}
-<div style="margin: 1rem 0 2rem 0; display: flex; justify-content: flex-end;">
+<div style="margin: 1rem 0 2rem 0; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+    <nav style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
+        <a href="{{ '/' | relative_url }}">Welcome</a>
+        <a href="{{ '/docs/' | relative_url }}">Docs</a>
+        <a href="{{ '/guides/' | relative_url }}">Guides</a>
+        <a href="{{ '/tools/' | relative_url }}">Tools</a>
+    </nav>
     <a href="https://github.com/HaloWarsModding/HaloWarsModding.github.io/edit/master/{{ path }}"
        class="btn"
        style="
