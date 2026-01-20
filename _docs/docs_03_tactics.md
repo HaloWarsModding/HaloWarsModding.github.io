@@ -4,6 +4,8 @@ description: "Tactics files are an absolutely essential part of any unit. They e
 permalink: /docs/tactics
 layout: default
 nav_order: 3
+status_label: Work In Progress
+status_class: label-blue
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

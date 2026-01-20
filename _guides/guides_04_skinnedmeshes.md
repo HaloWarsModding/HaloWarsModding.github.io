@@ -4,6 +4,8 @@ description: "This guide will explain how to import skinned meshes for use in Ha
 permalink: /guides/importing-skinned-meshes
 layout: default
 nav_order: 4
+status_label: Deprecated
+status_class: label-red
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

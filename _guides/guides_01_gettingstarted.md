@@ -4,6 +4,8 @@ description: "Whether you're a new modder or need to brush up on the basics, thi
 permalink: /guides/getting-started
 layout: default
 nav_order: 1
+status_label: Stable
+status_class: label-green
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

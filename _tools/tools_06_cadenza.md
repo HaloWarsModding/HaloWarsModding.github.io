@@ -3,6 +3,8 @@ title: Cadenza
 description: "Simple command-line tool to edit Halo Wars: DE Wwise sounds."
 layout: default
 nav_order: 6
+status_label: Stable
+status_class: label-green
 permalink: /tools/cadenza
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true

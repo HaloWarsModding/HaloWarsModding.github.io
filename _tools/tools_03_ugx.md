@@ -4,6 +4,8 @@ description: "This guide will go into how to use the StumpyUGXPipeline to create
 permalink: /tools/ugx
 layout: default
 nav_order: 3
+status_label: Deprecated
+status_class: label-red
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

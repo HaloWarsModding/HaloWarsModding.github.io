@@ -4,6 +4,8 @@ description: "Learn how to install mods for Halo Wars: Definitive Edition"
 permalink: /guides/installing-mods
 layout: default
 nav_order: 2
+status_label: Stable
+status_class: label-green
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---
