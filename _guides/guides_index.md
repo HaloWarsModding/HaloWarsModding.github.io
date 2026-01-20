@@ -3,7 +3,7 @@ title: Guides
 description: "Browse step-by-step guides for modding Halo Wars: Definitive Edition."
 permalink: /guides/
 layout: default
-nav_order: 2
+nav_order: 3
 nav_exclude: false
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: false
