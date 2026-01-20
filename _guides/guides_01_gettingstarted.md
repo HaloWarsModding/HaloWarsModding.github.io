@@ -66,7 +66,7 @@ As with all things, sometimes you may encounter something that is not working as
 - Incorrect spelling or forgotten underscores
 
 {: .note }
-When following a guide here, if you're absolutely sure you did it correctly and it still will not work, there is always the [Halo Wars Modding Discord](https://discord.gg/t52GdQX) where someone would be happy to assist you.
+When following a guide here, if you're absolutely sure you did it correctly and it still will not work, there is always the [Halo Wars Modding Discord](https://discord.gg/GuvUCgqz8d) where someone would be happy to assist you.
 
 ---
 

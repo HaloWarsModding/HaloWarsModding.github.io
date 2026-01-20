@@ -21,7 +21,7 @@ This page will go through all basic tools that can be used to mod Halo Wars.
 <a name="PHxTools"></a>
 # PHxTools
 ## PhxGui.exe
-<img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/assets/images/unpackingera_nofolder.png?raw=true">
+<img width="auto" height="400" style="border:1px solid #808080" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/unpackingera_nofolder.png?raw=true">
 
 PhxGui.exe is a drag-n-drop style desktop app which is required for almost all early modding.
 
@@ -29,7 +29,7 @@ Download can be found [here](https://github.com/HaloMods/HaloWarsDocs/releases)
 
 ## PhxTool.exe
 
-PhxTool.exe is a CLI style app that resembles the original "KSoft.Tool" app. PhxGui adresses almost all user needs so this is undocumented.
+PhxTool.exe is a CLI style app that resembles the original "KSoft.Tool" app. PhxGui addresses almost all user needs so this is undocumented.
 
 ***
 
@@ -55,7 +55,7 @@ Download can be found [here](https://www.mediafire.com/file/arygc1elmr13x3b/HW2P
 
 <a name="XML2XMBConverter"></a>
 # XML2XMB Converter
-<img width="842" height="50" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resourcesss/images/smallxml2xmbexample.png?raw=true">
+<img width="842" height="50" src="https://github.com/HaloWarsModding/HaloWarsModding.github.io/blob/master/resources/images/smallxml2xmbexample.png?raw=true">
 
 This converter is used to convert the modified .xml files back to .xmb.
 
@@ -107,5 +107,3 @@ Download can be found [here](https://github.com/jindrapetrik/jpexs-decompiler/re
 DLL and Injector for dumping UWP applications at run-time to bypass encrypted file system protection.
 
 Download can be found [here](https://github.com/Wunkolo/UWPDumper) 
-
-
