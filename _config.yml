@@ -17,6 +17,9 @@ callouts:
   highlight:
     title: Highlight
     color: grey-lt
+  tip:
+    title: Tip
+    color: yellow
   important:
     title: Important
     color: blue
@@ -43,6 +46,20 @@ collections:
     output: true
     permalink: "/docs/:title/"
     nav_expand: true
+
+defaults:
+  - scope:
+      type: guides
+    values:
+      nav_exclude: true
+  - scope:
+      type: tools
+    values:
+      nav_exclude: true
+  - scope:
+      type: docs
+    values:
+      nav_exclude: true
 
 just_the_docs:
   show_last_modified_at: true

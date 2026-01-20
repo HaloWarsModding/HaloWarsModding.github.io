@@ -47,12 +47,10 @@ Once you have downloaded the tool and the Granny3D SDK dll, go ahead an place th
 To use this program, simply open it. You will be greeted with a prompt to type or paste in a path to a .gr2 file.
 ```
 Please enter a path to a .gr2 file.
->>
 ```
 You will then be prompted to specify what you want to export this as.
 ```
 Please select what you want to export this file as: (a = animation | m = mesh)
->>
 ```
 The tool will then convert the .gr2 into either a .uax or .ugx in the exact same path as the input, and will give it the appropriate file extension.
 
