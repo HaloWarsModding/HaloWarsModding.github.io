@@ -5,6 +5,8 @@ Creating models is not exactly straight forward, and requires a few hurdles to j
 permalink: /guides/custom-models
 layout: default
 nav_order: 3
+status_label: Deprecated
+status_class: label-red
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

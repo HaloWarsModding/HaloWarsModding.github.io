@@ -63,13 +63,3 @@ defaults:
 
 just_the_docs:
   show_last_modified_at: true
-  collections:
-    guides:
-      name: Guides
-      nav_fold: true
-    tools:
-      name: Tools
-      nav_fold: true
-    docs:
-      name: Docs
-      nav_fold: true

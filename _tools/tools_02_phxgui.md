@@ -4,6 +4,8 @@ description: "Overview and usage of PhxGUI — the official utilities for editin
 permalink: /tools/phxgui
 layout: default
 nav_order: 2
+status_label: Stable
+status_class: label-green
 toc: true
 ---
 

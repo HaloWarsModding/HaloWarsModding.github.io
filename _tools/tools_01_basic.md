@@ -4,6 +4,8 @@ description: "This page will go through all basic tools that can be used to mod 
 permalink: /tools/basic
 layout: default
 nav_order: 1
+status_label: Work In Progress
+status_class: label-blue
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

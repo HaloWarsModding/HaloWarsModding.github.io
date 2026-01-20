@@ -4,6 +4,8 @@ description: "To begin the process, head to the design folder that is in your sc
 permalink: /guides/map-edits
 layout: default
 nav_order: 5
+status_label: Deprecated
+status_class: label-red
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

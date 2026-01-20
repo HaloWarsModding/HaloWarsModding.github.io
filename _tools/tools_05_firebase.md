@@ -3,6 +3,8 @@ title: Firebase
 description: "A mod manager for Halo Wars: Definitive Edition, offering fast switching, patching, and mod organization."
 layout: default
 nav_order: 5
+status_label: Stable
+status_class: label-green
 permalink: /tools/firebase
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true

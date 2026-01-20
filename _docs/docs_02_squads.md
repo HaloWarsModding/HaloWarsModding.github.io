@@ -4,6 +4,8 @@ description: "The Squad.xml file stores data and attributes for units that is no
 permalink: /docs/squads
 layout: default
 nav_order: 2
+status_label: Work In Progress
+status_class: label-blue
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

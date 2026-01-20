@@ -4,6 +4,8 @@ description: Creating Custom Objects Description
 permalink: /guides/custom-objects
 layout: default
 nav_order: 7
+status_label: Work In Progress
+status_class: label-blue
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

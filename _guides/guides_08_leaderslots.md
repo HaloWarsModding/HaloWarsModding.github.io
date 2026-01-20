@@ -4,6 +4,8 @@ description: "This guide is a runthrough on the leaderpicker.gfx file. This cont
 permalink: /guides/leader-slots
 layout: default
 nav_order: 5
+status_label: Work In Progress
+status_class: label-blue
 image: https://raw.githubusercontent.com/HaloWarsModding/HaloWarsModding.github.io/master/resources/images/metadata/header.png
 toc: true
 ---

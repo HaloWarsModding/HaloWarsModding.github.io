@@ -15,5 +15,5 @@ Explore the available tools below.
 
 {% assign items = site.tools | where_exp: "item", "item.url != page.url" | sort: "nav_order" %}
 {% for item in items %}
-- [{{ item.title }}]({{ item.url }})
+## [{{ item.title }}]({{ item.url }}) <span class="label {{ item.status_class }}">{{ item.status_label }}</span>
 {% endfor %}
